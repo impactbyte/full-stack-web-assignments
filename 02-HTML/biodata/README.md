@@ -1,3 +1,0 @@
-## Specs
-
-## Key Learning Points
