@@ -1,13 +1,12 @@
 ## Specs
-hore sekarang sudah mendekati akhir bulan dan itu artinya sebentar lagi gajian, banyak barang yang akan kamu beli namun jangan sampai overbudget jadi kamu akan menghitung total pengeluaran dengan rincian dibawah. Hitung uang yang tersisa dari gaji bulan ini ke dalam variabel `sisaGaji`
-Gaji = 5000000
-gunpla = 300000;
-pasangWifi = 500000;
-mejaKantor = 250000;
-bayarKost = 750000;
+Hore sekarang sudah mendekati akhir bulan dan itu artinya sebentar lagi gajian, banyak barang yang akan kamu beli namun jangan sampai *overbudget* jadi kamu akan menghitung total pengeluaran dengan rincian dibawah. Hitung uang yang tersisa dari gaji bulan ini kemudian simpan hasilnya didalam variable `sisaGaji`.
+- gaji = Rp 5.000.000;
+- internet = Rp 500.000;
+- meja kantor = Rp 250.000;
+- bayar kost = Rp 750.000;
 
 ## Expected Result
-`sisaGaji` should be `3200000`
+`sisaGaji` should be `3500000`
 
 ## Key Learning Points
-memahami operator yang dapat digunakan dengan tipe data `number`
+- memahami operator yang dapat digunakan dengan tipe data `number`

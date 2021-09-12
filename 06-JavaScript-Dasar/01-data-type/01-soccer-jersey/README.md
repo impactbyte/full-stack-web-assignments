@@ -1,8 +1,13 @@
 ## Specs
-kamu merupakan seorang pengusaha tekstil dan saat ini sedang diminta untuk membuat baju bola untuk tim lokal, tugas anda adalah untuk mencetak nama pemain yang tersimpan pada variable `player` dengan huruf besar dan menyimpannya pada variable `result`
+Kamu merupakan seorang pengusaha tekstil dan saat ini sedang diminta untuk membuat baju bola untuk tim lokal, tugas anda adalah untuk mencetak nama pemain dengan format seperti dibawah:
+  - "John Watson" ⇒ "JOHN WATSON" (simpan dalam variable bernama `upperCase`)
+  - "John Watson" ⇒ "john watson" (simpan dalam variable bernama `lowerCase`)
+## Expected Result
 
-## Expected Results
-`john doe` should be `JOHN DOE`
+Apabila `playerName` memiliki nilai `"John Watson"`
+- `upperCase` should be `"JOHN WATSON"`
+- `lowerCase` should be `"john watson"`
 
-## Key Learning Points
-mengetahui fungsi dari method bawaan serta mampu mengimplementasikan
+
+## key learning points
+- mengetahui fungsi dari *method* bawaan serta mampu mengimplementasikan
