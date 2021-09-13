@@ -1,5 +1,5 @@
 ## Specs
-Publish website kamu ke [Netlify](https://netlify.com)
+Upload website yang sudah kamu buat menggunakan layanan hosting [Netlify](https://netlify.com), kemudian kumpulkan kedalam `google classroom`
 
 ## Key Learning Points
 Siswa dapat mengunggah file HTML-nya kedalam layanan hosting gratis yaitu netlify

@@ -1,4 +1,11 @@
 ## Specs
+> Untuk kemudahan dalam menjawab soal, kamu dapat memilih untuk menggunakan salah satu dari ketiga platform dibawah:
+> - [skilvul playground](https://skilvul.com/paths/coding-di-skilvul-playground)
+> - [repl](https://replit.com/)
+> - [stackblitz](https://stackblitz.com/)
+
+> Pengumpulan tugas dapat dilakukan dengan cara membagikan link pengerjaan tugas didalam `google classroom`
+
 - mengelompokan komponen kedalam tag `section` atau `header`
 - tiap kelompok akan dipisahkan oleh 2 tag `br`, jadi kita memiliki 4 bagian
 - setiap tag `section` harus memiliki atribut `id` yang sesuai dengan judul-nya kecuali `website pertamaku`, dan tatacara penulisan menggunakan sistem `kebab case` ex: `Website Pertamaku` ⇒ `website-pertamaku` huruf kecil spasi digantikan dengan tanda `-`
