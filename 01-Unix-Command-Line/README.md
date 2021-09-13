@@ -1,15 +1,15 @@
-## EXPECTED RESULT
-- ![UNIX-01](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/UNIX+-+01.png)
-- ![UNIX-02](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/UNIX+-+02.png)
-- ![UNIX-03](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/UNIX+-+03.png)
-- ![UNIX-04](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/UNIX+-+04.png)
-- ![UNIX-05](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/UNIX+-+05.png)
-- ![UNIX-06](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/UNIX+-+06.png)
-- ![UNIX-07](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/UNIX+-+07.png)
-- ![UNIX-08](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/UNIX+-+08.png)
 ## SPECS
 
 Kamu adalah seorang programmer yang bekerja pada suatu start-up terkini, kemudian kamu diminta untuk menyusun folder dan files sebagai bentuk dokumentasi dari berkas-berkas yang kamu miliki. Kamu diminta untuk
+
+> Soal dapat dikerjakan menggunakan notepad atau aplikasi plaintext editor lainnya, dokumentasikan tiap-tiap langkah yang anda gunakan untuk menyelesaikan soal-soal tersebut. Contoh pengerjaan soal:
+
+```
+1. mkdir fikri
+2. cd fikri
+```
+
+> Tugas bisa diupload ke `google drive` masing-masing, serta jangan lupa untuk mengumpulkan-nya pada `google classroom`
 
 1. membuat sebuah folder kosong dengan nama-mu sendiri
 2. didalam *folder* tersebut buatlah
