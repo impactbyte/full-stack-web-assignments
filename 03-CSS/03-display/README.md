@@ -1,8 +1,12 @@
-## Expected Results
-![display](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/css-assignment-display.png)
-
 ## Specs
-buatlah baris kode dibawah sehingga ia akan membuat tampilan seperti ini, dengan cara:
+> Untuk kemudahan dalam menjawab soal, kamu dapat memilih untuk menggunakan salah satu dari ketiga platform dibawah:
+> - [skilvul playground](https://skilvul.com/paths/coding-di-skilvul-playground)
+> - [repl](https://replit.com/)
+> - [stackblitz](https://stackblitz.com/)
+
+> Pengumpulan tugas dapat dilakukan dengan cara membagikan link pengerjaan tugas didalam `google classroom`
+
+Buatlah baris kode dibawah sehingga ia akan membuat tampilan seperti ini, dengan cara:
 
 - elemen `nav`
     - berikan background `lightbluesky`
@@ -15,6 +19,9 @@ buatlah baris kode dibawah sehingga ia akan membuat tampilan seperti ini, dengan
     - hilangkan default style yang dimiliki oleh elemen `a`
     - berikan padding atas dan bawah `10px` untuk kanan kiri sebesar `15px`
     - apabila mendapatkan event hover ia akan memiliki background `gainsboro`
+
+## Expected Results
+![display](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/css-assignment-display.png)
 
 ## Key Learning Points
 - mengetahui fungsi dan kegunaan dari properti `display`
