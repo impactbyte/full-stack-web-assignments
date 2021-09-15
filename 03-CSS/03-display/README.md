@@ -4,7 +4,8 @@
 > - [repl](https://replit.com/)
 > - [stackblitz](https://stackblitz.com/)
 
-> Pengumpulan tugas dapat dilakukan dengan cara membagikan link pengerjaan tugas didalam `google classroom`
+- Buatlah 1 file dengan nama `display.html` sebagai tempat membuat strkutur html
+- Buatlah 1 file dengan nama `display.css` sebagai tempat untuk melakukan styling
 
 Buatlah baris kode dibawah sehingga ia akan membuat tampilan seperti ini, dengan cara:
 
