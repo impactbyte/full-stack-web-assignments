@@ -26,6 +26,7 @@ async function getData() {
 ![skilvul](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/JS-ES6+-+Fetch+-+01.png)
 
 ## Key Learning Points
+- Peserta mampu memahami konsep dari `asynchronous`
 - Peserta mampu memahami dan menerapkan `fetch`
 - Peserta mampu memahami dan menerapkan `async` dan `await`
 - Peserta mampu untuk membaca dan memahami struktur dari *public API*
