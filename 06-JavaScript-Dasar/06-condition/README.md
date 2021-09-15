@@ -1,5 +1,7 @@
 ## Specs
 
+> Untuk pengumpulan tugas anda dapat menggunakan GitHub serta jangan lupa untuk mengupload link repository kedalam `google classroom
+
 Kamu adalah seorang petualang yang tidak bisa diam disuatu tempat, namun pandemi ini sangatlah berat dan mau tidak mau kamu harus dirumah. Semua berubah setelah vaksin masuk negara kita dan kamu langsung bergerak untuk memsan tiket perjalanan. Tugasmu adalah membuat sebuah fungsi `isAllowedToTravel` untuk melakukan pengecekan apakah orang tersebut dapat bepergian atau tidak yang mana ia akan memiliki 1 parameter berupa object:
 
 - `nama` ⇒ nama penumpang yang ingin bepergian

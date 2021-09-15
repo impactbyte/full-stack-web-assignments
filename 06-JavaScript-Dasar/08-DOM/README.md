@@ -1,5 +1,7 @@
 ## Specs
 
+> Untuk pengumpulan tugas anda dapat menggunakan GitHub serta jangan lupa untuk mengupload link repository kedalam `google classroom
+
 kamu adalah seorang software developer yang bekerja pada sebuah bank swasta lokal, dan kamu diminta untuk membuat sebuah sistem antrian yang mana user harus meng-inputkan nama lalu menekan tombol `submit` agar mendapatkan nomor antrian dengan nama yang telah mereka cantumkan. Tugasmu adalah membuat sebuah sistem dengan spesifikasi sebagai berikut
 
 - user harus memasukan nama mereka terlebih dahulu

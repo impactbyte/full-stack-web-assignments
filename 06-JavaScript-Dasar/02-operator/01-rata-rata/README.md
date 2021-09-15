@@ -1,4 +1,7 @@
 ## Specs
+
+> Untuk pengumpulan tugas anda dapat menggunakan GitHub serta jangan lupa untuk mengupload link repository kedalam `google classroom
+
 kamu adalah seorang guru diSMA Harapan Jaya dan ini hampir mendekati akhir semester, anda diminta untuk mengumpulkan nilai rata-rata dan menyimpannya didalam variable `result`
 - studentA = 100
 - studentB = 90

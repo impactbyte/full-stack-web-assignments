@@ -1,4 +1,7 @@
 ## Specs
+
+> Untuk pengumpulan tugas anda dapat menggunakan GitHub serta jangan lupa untuk mengupload link repository kedalam `google classroom
+
 Kamu merupakan seorang PNS yang bertugas untuk melakukan pendataan pada warga kampung maju makmur, data yang diperlukan oleh dinas anatara lain:
 
 - nama

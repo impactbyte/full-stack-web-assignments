@@ -1,5 +1,7 @@
 ## Specs
 
+> Untuk pengumpulan tugas anda dapat menggunakan GitHub serta jangan lupa untuk mengupload link repository kedalam `google classroom
+
 Kamu adalah seorang yang ingin memulai perjalanannya didunia finansial, kemudian anda memutuskan untuk mengawalinya dengan mencatat seluruh pengeluaran yang telah kamu lakukan. Tugasmu adalah membuat fungsi `totalExpense` dengan kriteria seperti berikut:
 
 - menghitung pengeluaran berdasarkan kategorinya

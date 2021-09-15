@@ -1,4 +1,7 @@
 ## Specs
+
+> Untuk pengumpulan tugas anda dapat menggunakan GitHub serta jangan lupa untuk mengupload link repository kedalam `google classroom
+
 Kamu adalah seorang mahasiswa yang mana terampil untuk mengelola keuangan salah satu diantaranya adalah belanja bulanan. Kamu ingat sudah membuat daftar belanjaan seperti dibawah.
 
 |   nama  | jumlah | harga |
