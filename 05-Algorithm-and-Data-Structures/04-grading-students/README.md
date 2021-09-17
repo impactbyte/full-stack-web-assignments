@@ -19,10 +19,10 @@ Nilai diatas tidak dapat dibulatkan ke `60` karena sudah berada di bawah nilai m
 Nilai di atas tidak dapat dilakukan pembulatan ke `80` karena melebihi batas maksimal pembulatan yaitu harus lebih kecil dari `3`
 
 ## Expected Result
-| NO      | Original Grade | Final Grade
-| ----------- | ----------- |
-| 1      | 73       |75
-| 2   | 87        |87
-| 3   | 68        |70
-| 4   | 67        |67
-| 5   | 43        | 43
+| NO | Original Grade | Final Grade|
+| -- | -------------- |            |
+| 1  | 73             |75          |
+| 2  | 87             |87          |
+| 3  | 68             |70          |
+| 4  | 67             |67          |
+| 5  | 43             |43          |
