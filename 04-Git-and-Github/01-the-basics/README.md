@@ -1,4 +1,4 @@
-## Specs
+## Description
 > Mohon simulasikan perintah dibawah menggunakan perintah command dari terminal. Semua nomor dibawah ini harus dijalankan menggunakan command pada CLI
 
 > Kamu dapat membuat file the-basics.md lalu didalamnya tuliskan jawaban sesuai nomor perintah dibawah.
@@ -6,9 +6,10 @@
 Contoh:
 1. Create a foler called `git-basic`. **mkdir git-basic**
 2. `cd` into the `git-basic` folder. **cd git-basic**
+
 ...
 
-## Questions
+## Specs
 Now that you have learned the basics of Git workflow, try running through this a couple of times on your own:
 
 1. Create a folder called `git-basic`
