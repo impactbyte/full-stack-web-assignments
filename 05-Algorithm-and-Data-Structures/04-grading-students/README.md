@@ -1,4 +1,11 @@
 ## Specs
+> Soal dapat dikerjakan menggunakan notepad atau aplikasi plaintext editor lainnya, dokumentasikan tiap-tiap langkah yang anda gunakan untuk menyelesaikan soal-soal tersebut. Contoh pengerjaan soal:
+
+```
+SET name = "john"
+DISPLAY name
+```
+
 Skilvul ingin memberikan penilaian terhadap siswa
 - Setiap siswa akan menerima penilaian skala 0 - 100
 - Nilai di bawah 70 dianggap tidak lulus

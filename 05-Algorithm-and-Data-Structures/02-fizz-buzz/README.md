@@ -1,4 +1,11 @@
 ## Specs
+> Soal dapat dikerjakan menggunakan notepad atau aplikasi plaintext editor lainnya, dokumentasikan tiap-tiap langkah yang anda gunakan untuk menyelesaikan soal-soal tersebut. Contoh pengerjaan soal:
+
+```
+SET name = "john"
+DISPLAY name
+```
+
 Write a program that prints the numbers from `1 to 100` 
 - for multiples of `3` print `"Fizz"` instead of the number
 - for the multiples of `5` print `"Buzz"` instead of the number
@@ -7,23 +14,43 @@ Write a program that prints the numbers from `1 to 100`
 
 ## Expected Result
 1
+
 2
+
 Fizz
+
 4
+
 Buzz
+
 Fizz
+
 7
+
 8
+
 Fizz
+
 Buzz
+
 11
+
 Fizz
+
 13
+
 14
+
 FizzBuzz
+
 16
+
 17
+
 Fizz
+
 19
+
 Buzz
+
 ...
