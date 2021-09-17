@@ -14,7 +14,7 @@ Input hanya dapat menerima tipe data berupa string/teks.
 
 ## Expected Results
 Input: `x`
-Outpu: `TRUE`
+Output: `TRUE`
 
 Input: `abba`
 Output: `TRUE`

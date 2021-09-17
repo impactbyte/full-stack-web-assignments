@@ -15,6 +15,7 @@ Dalam memberikan nilai ada 2 tahapan penting yaitu:
 - Jika nilai kurang dari `68`, tidak dapat melakukan pembulatan karena tetap dianggap tidak lulus.
 
 Input berupa `Nilai Awal`
+
 Output berupa `Nilai Akhir` baik yang dapat dilakukan pembulatan ataupun tidak
 
 ## Examples
