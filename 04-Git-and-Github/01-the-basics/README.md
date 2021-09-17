@@ -6,8 +6,7 @@
 Contoh:
 1. Create a foler called `git-basic`. **mkdir git-basic**
 2. `cd` into the `git-basic` folder. **cd git-basic**
-
-...
+3. ...
 
 ## Specs
 Now that you have learned the basics of Git workflow, try running through this a couple of times on your own:
