@@ -14,6 +14,7 @@ Write a program that prints the numbers from `1 to n`
 
 ## Expected Result
 Input `n` = `20`
+
 Output:
 
 1
