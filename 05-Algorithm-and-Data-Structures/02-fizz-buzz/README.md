@@ -6,13 +6,16 @@ SET name = "john"
 DISPLAY name
 ```
 
-Write a program that prints the numbers from `1 to 100` 
+Write a program that prints the numbers from `1 to n` 
 - for multiples of `3` print `"Fizz"` instead of the number
 - for the multiples of `5` print `"Buzz"` instead of the number
 - for numbers which are multiplies of both `3` and `5` print `"FizzBuzz"`
 - for numbers not divisible by, `3`, `5`, or `both`, print the number as is
 
 ## Expected Result
+Input `n` = `20`
+Output:
+
 1
 
 2
@@ -52,5 +55,3 @@ Fizz
 19
 
 Buzz
-
-...
