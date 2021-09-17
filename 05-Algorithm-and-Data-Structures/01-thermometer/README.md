@@ -14,23 +14,24 @@ Ada 3 jenis perubahan yang suhu yaitu:
 - `kelvin` to `celcius` = `(N - 273.15)`
 - `celcius` to `celcius` = `N`
 
+## Expected Result
 User harus menginput 2 hal:
 - Besar Temperatur
 - Tipe Temperatur
 
 Input 1:
-- 86
-- Fahrenheit
+- `86`
+- `Fahrenheit`
 
 Output 1:
-30
+`30`
 
 Input 2:
-- 30
-- Celcius
+- `45`
+- `Celcius`
 
 Output 2:
-30
+`45`
 
 ## Key Learning Points
 - peserta dapat menganalisa sebuah permasalahan yang ada dilapangan
