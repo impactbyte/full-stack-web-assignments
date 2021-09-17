@@ -6,10 +6,23 @@ Buatlah sebuah program untuk mengecek apakah 2 buah nilai bersifat palindrome. J
 Input hanya dapat menerima tipe data berupa string/teks.
 
 ## Expected Results
-- x => true
-- abba => true
-- 101 => true
-- taco cat => true
-- kodok => true
-- ab => false
-- abaa => false
+Input: `x`
+Outpu: `TRUE`
+
+Input: `abba`
+Output: `TRUE`
+
+Input: `101`
+Output: `TRUE`
+
+Input: `taco cat`
+Output: `TRUE`
+
+Input: `kodok`
+Output: `TRUE`
+
+Input: `ab`
+Output: `TRUE`
+
+Input: `abaa`
+Output: `TRUE`
