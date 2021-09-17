@@ -14,22 +14,6 @@ Ada 3 jenis perubahan yang suhu yaitu:
 - `kelvin` to `celcius` = `(N - 273.15)`
 - `celcius` to `celcius` = `N`
 
-## Expected Result
-```
-INPUT temp
-INPUT type
-
-IF type IS "kelvin" THEN
-  SET result = (temp-32) * (5/9)
-  DISPLAY result
-ELSE IF type IS "fahrenheit" THEN
-  SET result = (temp-273.15)
-  DISPLAY result
-ELSE
-  DISPLAY temp
-ENDIF
-```
-
 ## Key Learning Points
 - peserta dapat menganalisa sebuah permasalahan yang ada dilapangan
 - menerapkan pola pikir komputasi
