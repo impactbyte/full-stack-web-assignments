@@ -6,9 +6,9 @@ SET name = "john"
 DISPLAY name
 ```
 
-Kasus dibawah ini adalah adanya sebuah kata, frasa, atau angka yang dapat dibaca dengan sama baik dari depan maupun belakang.
+Palindrome adalah adanya sebuah kata, frasa, atau angka yang dapat dibaca dengan sama baik dari depan maupun belakang.
 
-Buatlah sebuah program untuk mengecek apakah 2 buah nilai bersifat palindrome. Jika iya program akan mengembalikan status `TRUE` jika tidak program akan mengembalikan status `FALSE`.
+Buatlah sebuah program untuk mengecek apakah 1 buah nilai bersifat palindrome. Jika iya program akan mengembalikan status `TRUE` jika tidak program akan mengembalikan status `FALSE`.
 
 Input hanya dapat menerima tipe data berupa string/teks.
 
@@ -29,7 +29,7 @@ Input: `kodok`
 Output: `TRUE`
 
 Input: `ab`
-Output: `TRUE`
+Output: `FALSE`
 
 Input: `abaa`
-Output: `TRUE`
+Output: `FALSE`
