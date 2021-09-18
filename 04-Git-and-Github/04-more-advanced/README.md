@@ -4,7 +4,7 @@
 > Kamu dapat membuat file more-advanced.md atau more-advanced.txt lalu didalamnya tuliskan jawaban sesuai nomor perintah pada soal.
 
 Contoh:
-1. Create a foler called `git-basic`. **mkdir git-basic**
+1. Create a folder called `git-basic`. **mkdir git-basic**
 2. `cd` into the `git-basic` folder. **cd git-basic**
 3. ...
 
