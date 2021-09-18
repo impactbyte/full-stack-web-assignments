@@ -20,10 +20,13 @@ Output berupa `Nilai Akhir` baik yang dapat dilakukan pembulatan ataupun tidak
 
 ## Examples
 - `grade` = `84`
+
 Nilai diatas dapat dilakukan pembulatan ke `85` karena jarak antara `85 - 84` masih kurang dari `3`
 - `grade` = `59`
+
 Nilai diatas tidak dapat dibulatkan ke `60` karena sudah berada di bawah nilai minimal kelulusan yaitu `70`
 - `grade` = `77`
+
 Nilai di atas tidak dapat dilakukan pembulatan ke `80` karena melebihi batas maksimal pembulatan yaitu harus lebih kecil dari `3`
 
 ## Expected Result
