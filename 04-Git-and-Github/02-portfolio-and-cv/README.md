@@ -1,7 +1,12 @@
 ## Description
 > Mohon simulasikan perintah dibawah menggunakan perintah command dari terminal. Semua nomor dibawah ini harus dijalankan menggunakan command pada CLI
 
-> Kamu dapat membuat file portfolio-and-cv.md lalu didalamnya tuliskan jawaban sesuai nomor perintah dibawah.
+> Kamu dapat membuat file portfolio-and-cv.md atau portfolio-and-cv.txt lalu didalamnya tuliskan jawaban sesuai nomor perintah pada soal.
+
+Contoh:
+1. Create a foler called `git-basic`. **mkdir git-basic**
+2. `cd` into the `git-basic` folder. **cd git-basic**
+3. ...
 
 ## Specs
 

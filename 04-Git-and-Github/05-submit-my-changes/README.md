@@ -1,7 +1,7 @@
 ## Description
-> > Mohon simulasikan perintah dibawah menggunakan perintah command dari terminal. Semua nomor dibawah ini harus dijalankan/simulasikan menggunakan command pada CLI
+> Mohon simulasikan perintah dibawah menggunakan perintah command dari terminal. Semua nomor dibawah ini harus dijalankan/simulasikan menggunakan command pada CLI
 
-> Kamu dapat membuat file submit-my-changes.md atau submit-my-changes.txt lalu didalamnya tuliskan jawaban sesuai nomor perintah dibawah. Pada langkah nomor 5 dan 9 memerlukan Screenshot, maka attach link image yang telah kamu upload (google drive/dropbox/etc) ke dalam file `.md` atau `.txt`. Sisanya merupakan perintah pada command line.
+> Kamu dapat membuat file submit-my-changes.md atau submit-my-changes.txt lalu didalamnya tuliskan jawaban sesuai nomor perintah pada soal. Pada langkah nomor 5 dan 9 memerlukan Screenshot, maka attach link image yang telah kamu upload (google drive/dropbox/etc) ke dalam file `.md` atau `.txt`. Sisanya merupakan perintah yang kamu gunakan pada command line.
 
 ## Specs
 
