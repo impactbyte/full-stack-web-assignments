@@ -1,7 +1,7 @@
 ## Description
 > Mohon simulasikan perintah dibawah menggunakan perintah command dari terminal. Semua nomor dibawah ini harus dijalankan/simulasikan menggunakan command pada CLI
 
-> Kamu dapat membuat file submit-my-changes.md atau submit-my-changes.txt lalu didalamnya tuliskan jawaban sesuai nomor perintah pada soal. Pada langkah nomor 5 dan 9 memerlukan Screenshot, maka attach link image yang telah kamu upload (google drive/dropbox/etc) ke dalam file `.md` atau `.txt`. Sisanya merupakan perintah yang kamu gunakan pada command line.
+> Kamu dapat membuat file submit-my-changes.md atau submit-my-changes.txt lalu didalamnya tuliskan jawaban sesuai nomor perintah pada soal. Pada langkah nomor 1, 6, dan 11 memerlukan Screenshot, maka attach link image yang telah kamu upload (google drive/dropbox/etc) ke dalam file `.md` atau `.txt`. Sisanya merupakan perintah yang kamu gunakan pada command line.
 
 ## Specs
 
@@ -18,8 +18,8 @@ Nama Lengkap: David Winalda
 Umur: 27
 Pesan yang ingin disampaikan: Semangat untuk kamu yang disana sedang berjuang
 ```
-6. Masukkan file `.md` tersebut ke dalam staging area
-7. Commit dengan memberikan pesan nama file `.md` kamu
-8. Merge branch yang telah kamu buat ke dalam branch `master`
-9. Push ke dalam branch `master`
-10. Lakukan pull request dari GitHub Repository yang telah kamu fork untuk digabungkan ke dalam branch `master` pada GitHub Repository aslinya.
+7. Masukkan file `.md` tersebut ke dalam staging area
+8. Commit dengan memberikan pesan nama file `.md` kamu
+9. Merge branch yang telah kamu buat ke dalam branch `master`
+10. Push ke dalam branch `master`
+11. Lakukan pull request dari GitHub Repository yang telah kamu fork untuk digabungkan ke dalam branch `master` pada GitHub Repository aslinya.
