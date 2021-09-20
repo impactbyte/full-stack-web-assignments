@@ -25,7 +25,7 @@ while (....) {}
 /// Soal - 03
 /// Kamu diminta untuk menemukan bilangan ganjil ke-50, temukan bilangan tersebut menggunakan do while loop
 
-const oddCounter = 0;
+let oddCounter = 0;
 const fiftiethOdd;
 do { .... } while (....)
 
