@@ -1,6 +1,6 @@
 ## Description
-> Buatlah sebuah file sesuai dengan nama `03-condition.js`, kemudian *copy and paste code template* yang sudah disediakan kedalam file yang sudah kamu buat lalu jawab ke-5 soal yang ada. Kamu dapat menggunakan kode editor kesukaan untuk menjawab soal-soal tersebut. Ada beberapa peraturan yang harus kalian patuhi yaitu:
-> - mengubah nama dari variable yang ada
+> Buatlah sebuah file sesuai dengan nama `03-condition.js`, kemudian *copy and paste code template* yang sudah disediakan kedalam file yang sudah kamu buat lalu jawab seluruh soal yang ada. Kamu dapat menggunakan kode editor kesukaan untuk menjawab soal-soal tersebut. Ada beberapa peraturan yang harus kalian patuhi yaitu:
+> - dilarang untuk mengubah nama dari variable yang ada
 > - dilarang untuk menghapus komentar
 
 ## Specs
@@ -26,10 +26,10 @@ const drivingLicense = true;
 /// Soal - 02
 /// Buatlah sebuah kondisi yang akan melakukan konversi suhu dari celcius ke variable yang dituju (kelvin, fahrenheit, dan celsius)
 /// - kondisi dibuat menggunakan switch case
-/// - konversi celcius menjadi kelvin apabila user memasukan nilai berupa "K"
-/// - konversi celcius menjadi fahrenheit apabila user memasukan nilai berupa "F"
-/// - konversi celcius menjadi celcius apabila user memasukan nilai berupa "C"
-/// - menampilkan pesan "Maaf anda salah input", apabila tidak variable tidak memenuhi sebua kondisi yang ada
+/// - konversi celcius menjadi kelvin apabila user memasukan unit berupa "K"
+/// - konversi celcius menjadi fahrenheit apabila user memasukan unit berupa "F"
+/// - konversi celcius menjadi celcius apabila user memasukan unit berupa "C"
+/// - menampilkan pesan "Maaf anda salah input", apabila variable tidak memenuhi semua kondisi yang ada
 const temperature = 100; /// suhu
 const unit = "F"; /// inputan
 switch (unit) {

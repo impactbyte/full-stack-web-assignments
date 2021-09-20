@@ -1,31 +1,42 @@
+## Description
+> Buatlah sebuah file sesuai dengan nama `04-loop.js`, kemudian *copy and paste code template* yang sudah disediakan kedalam file yang sudah kamu buat lalu jawab seluruh soal yang ada. Kamu dapat menggunakan kode editor kesukaan untuk menjawab soal-soal tersebut. Ada beberapa peraturan yang harus kalian patuhi yaitu:
+> - dilarang untuk mengubah nama dari variable yang ada
+> - dilarang untuk menghapus komentar
+
 ## Specs
+Kalian diminta untuk menyelesaikan pertanyaan-pertanyaan dibawah ini secara benar dan ikuti instruksi yang tertulis pada kolom komentar
 
-> Untuk pengumpulan tugas anda dapat menggunakan GitHub serta jangan lupa untuk mengupload link repository kedalam `google form
+```Javascript
+/// Soal - 01
+/// Kamu diminta untuk membuat sebuah perulangan menggunakan for loop, untuk mencetak angka prima dari 1 ~ 100
+/// EDIT HERE
+for (....) { }
 
-Kamu adalah seorang yang ingin memulai perjalanannya didunia finansial, kemudian anda memutuskan untuk mengawalinya dengan mencatat seluruh pengeluaran yang telah kamu lakukan. Tugasmu adalah membuat fungsi `totalExpense` dengan kriteria seperti berikut:
+/// Soal - 02
+/// Kamu diminta untuk menemukan bilangan prima ke-50, temukan bilangan tersebut menggunakan while loop
 
-- menghitung pengeluaran berdasarkan kategorinya
-- tidak akan menghitung pengeluaran yang bersifat produktif
-- nilai kembali berupa sebuah `object` dengan nama kategori dan nominal pengeluaran pada kategori tersebut
+let primeCounter = 0;
+const fiftiethPrime;
 
-| keterangan | harga  | produktif |
-|------------|--------|-----------|
-| makan      | 10000  | false     |
-| makan      | 900000 | true      |
-| gadget     | 350000 | false     |
-| household  | 125000 | true      |
-| household  | 50000  | true      |
-| gadget     | 400000 | false     |
-| gadget     | 780000 | true      |
+/// EDIT HERE
+while (....) {}
 
-## Expected Result
-Berdasarkan data diatas maka kita akan mendapatkan hasil sebagai berikut
-```jsx
-{ gadget: 750000, makan: 10000 }
+
+/// Soal - 03
+/// Kamu diminta untuk menemukan bilangan ganjil ke-50, temukan bilangan tersebut menggunakan do while loop
+
+const oddCounter = 0;
+const fiftiethOdd;
+do { .... } while (....)
+
 ```
 
+## Expected Result
+1. `2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97`
+2. `fiftiethPrime` should be `227`
+3. `fiftiethOdd` should be `99`
+
 ## Key Learning Points
-- memahami tatacara penggunaan dari `for of loop`
-- mengetahui cara mengambil nilai dari sebuah *Array*
-- mampu membuat sebuah *fungsi*
+- memahami tatacara penggunaan dari `for`, `while`, dan `do while`
+- memahami konsep dari *paramter*
 - memahami konsep dari *paramter*
