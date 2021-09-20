@@ -11,4 +11,4 @@ Setelah selesai mengerjakan semua soal, harap melakukan screenshot seperti conto
 
 ## Notes
 - Jika kamu telah menggunakan Github, harap attach link image screenshot ke dalam README.md
-- Jika kamu belum menggunakan Github, mohon masukkan link image screenshot kedalam form [form submission](https://forms.gle/V6DpPRugtCPm2gjn8) pada bagian `File Tambahan`
+- Jika kamu belum menggunakan Github, mohon masukkan link image screenshot kedalam [form submission](https://forms.gle/V6DpPRugtCPm2gjn8) pada bagian `File Tambahan`

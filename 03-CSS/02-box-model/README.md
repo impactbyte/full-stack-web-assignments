@@ -3,6 +3,8 @@
 > - [skilvul playground](https://skilvul.com/paths/coding-di-skilvul-playground)
 > - [repl](https://replit.com/)
 > - [stackblitz](https://stackblitz.com/)
+> - Buatlah 1 file dengan nama `box-model.html` sebagai tempat membuat strkutur html
+> - Buatlah 1 file dengan nama `box-model.css` sebagai tempat untuk melakukan styling
 
 > Pengumpulan tugas dapat dilakukan dengan cara membagikan link pengerjaan tugas didalam `google form`
 
