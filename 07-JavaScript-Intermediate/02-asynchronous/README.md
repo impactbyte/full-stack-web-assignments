@@ -4,20 +4,25 @@
 
 Pada kesempatan kali ini kita akan belajar untuk mengambil data dari [jsonplaceholder](https://jsonplaceholder.typicode.com/), tugasmu adalah untuk mengambil seluruh `post` yang dibuat oleh *user* yang memiliki website bernama `kale.biz`. Langkah pengerjaan:
 
-1. segala perubahan hanya terjadi didalam fungsi `getData`
+1. segala perubahan hanya terjadi didalam fungsi `getUser` & `getUserPosts`
 2. proses pengambilan data diwajibkan untuk menggunakan `async & await`
-3. ambil *user* yang memiliki webiste bernama `kale.biz`
-4. ambil segala post yang telah dibuat oleh user tersebut
-5. fungsi `getData` akan mengembalikan data dengan format<br>`{ user: { ... }, posts: [ ... ] }`
+5. fungsi `getUser` akan mengambil user dengan nama website `kale.biz`
+6. fungsi `getUserPosts` akan mengambil seluruh postingan user dengan id sesuai dengan parameter yang diberikan
 
 Untuk mempermudah penggunaan kami sudah menyiapkan sebuah template code, dan tugasmu adalah untuk menyelesaikan tiap soal yang ada. 
 ```JS
-async function getData() {
-	// Edit down here
+const getUser = async () => {
+	/// EDIT DOWN HERE
+}
+
+const getUserPosts = async (userId) => {
+  /// EDIT DOWN HERE
 }
 
 (async () => {
-  const result = await getData();
+  const user = await getUser();
+  const posts = await getUserPosts(user.id);
+  const result = { user, posts }
   console.log(result);
 })();
 ```

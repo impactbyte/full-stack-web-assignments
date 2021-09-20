@@ -2,7 +2,13 @@
 
 > Untuk pengumpulan tugas anda dapat menggunakan GitHub serta jangan lupa untuk mengupload link repository kedalam `google form`
 
-Kamu adalah seorang trader pemula, dan karna memiliki background IT kamu ingin membuat sebuah fungsi `getIncome` untuk mendapatkan nilai dari keuntungan yang dapat kita peroleh dengan rumus (*current price* - *previous price*) untuk setiap koin yang tersedia
+Kamu adalah seorang trader pemula, dan karna memiliki background IT kamu ingin membuat sebuah fungsi `calculateIncome` untuk mendapatkan nilai dari keuntungan yang dapat kita peroleh dengan rumus (*current price* - *previous price*) untuk setiap koin yang tersedia
+
+> - Gunakan `code template` yand diberikan untuk menyelesaikan masalah
+> - Segala perubahan hanya dapat dilakukan didalamm fungsi `calculateIncome`
+> - Hasil haruslah sesuai dengan expektasi yang diberikan
+
+Untuk mempermudah proses pengerjaan kamu dapat menggunakan code template dibawah ini
 
 ```JS
 const items = [
@@ -14,28 +20,11 @@ const items = [
   [ { name: "btc", price: 9.3 }, { name: "eth", price: 5.6 }, { name: "doge", price: 5.1 } ],
 ];
 
-function getIncome(items) {
-  let prev = items[0];
-  const result = items.reduce((acc, cur) => {
-    if (Object.values(acc).length === 0) {
-      acc["btc"] = 0;
-      acc["eth"] = 0;
-      acc["doge"] = 0;
-    }
-    
-    acc["btc"] += (cur[0].price - prev[0].price);
-    acc["eth"] += (cur[1].price - prev[1].price);
-    acc["doge"] += (cur[2].price - prev[2].price);
-    
-    prev = cur;   
-    
-    return acc;
-  }, {});
-  
-  return result;
+const calculateIncome = (items) => {
+  /// EDIT DOWN HERE
 }
 
-console.log(getIncome(items))
+console.log(calculateIncome(items))
 ```
 
 ## Expected Result

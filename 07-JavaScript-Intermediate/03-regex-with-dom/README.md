@@ -15,6 +15,7 @@ Kamu adalah seorang programmer yang bekerja pada sebuah perusahaan keamanan, kam
 4. setiap pesan akan disimpan didalam *variable* `message`, kemudian *alert* akan menampilkan isi dari *variable* tersebut
 5. setelah *alert* ditampilkan, maka hapus *password* dari *input field*
 <br>
+
 > Untuk memudahkan proses pengerjaan kami akan memberikan sebuah template dan kamu hanya perlu melakukan sedikit perubahaan pada baris kode yang ada
 
 ```HTML
@@ -32,14 +33,14 @@ Kamu adalah seorang programmer yang bekerja pada sebuah perusahaan keamanan, kam
       submit
     </button>
     <script>
-			const check = new RegExp();
-			const elInputPassword = document.getElementById('password');
-			const elBtnSubmmit = document.getElementById('btn-submit');
-			let message = "";
+      /// EDIT DOWN HERE
     </script>
   </body>
 </html>
 ```
+
+> - kamu hanya diperkenankan untuk mengubah baris kode didalam tag `<script>`
+> - hasil haruslah sesuai dengan ekspektasi yang telah diberikan
 
 ## Expected Result
 - apabila kita berikan *input* `"Ad!n5"` maka hasilnya akan<br>`tolong masukan password sesuai ketentuan`
