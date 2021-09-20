@@ -1,5 +1,5 @@
 ## Description
-> Buatlah sebuah file sesuai dengan nama `02-operator.js`, kemudian *copy and paste code template* yang sudah disediakan kedalam file yang sudah kamu buat lalu jawab ke-5 soal yang ada. Kamu dapat menggunakan kode editor kesukaan untuk menjawab soal-soal tersebut. Ada beberapa peraturan yang harus kalian patuhi yaitu:
+> Buatlah sebuah file sesuai dengan nama `03-condition.js`, kemudian *copy and paste code template* yang sudah disediakan kedalam file yang sudah kamu buat lalu jawab ke-5 soal yang ada. Kamu dapat menggunakan kode editor kesukaan untuk menjawab soal-soal tersebut. Ada beberapa peraturan yang harus kalian patuhi yaitu:
 > - mengubah nama dari variable yang ada
 > - dilarang untuk menghapus komentar
 
