@@ -1,6 +1,6 @@
 ## Specs
 
-> Untuk pengumpulan tugas anda dapat menggunakan GitHub serta jangan lupa untuk mengupload link repository kedalam `google classroom
+> Untuk pengumpulan tugas anda dapat menggunakan GitHub serta jangan lupa untuk mengupload link repository kedalam `google form
 
 > Tugas ini merupakan lanjutan dari Javascript Basic -> Loop
 

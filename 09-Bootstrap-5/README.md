@@ -1,6 +1,6 @@
 ## Spec
 
-> Untuk pengumpulan tugas anda dapat menggunakan GitHub serta jangan lupa untuk mengupload link repository kedalam `google classroom
+> Untuk pengumpulan tugas anda dapat menggunakan GitHub serta jangan lupa untuk mengupload link repository kedalam `google form
 
 Kamu diminta untuk membuat sebuah *landing page* menggunakan HTML dan [Bootstrap 5](https://getbootstrap.com/), Pada tugas kali ini kamu diberi kebebasan untuk membuat *landing page* akan tetapi ada beberapa *component* yang wajib kamu gunakan untuk membuatnya antara lain:
 - `carousel`

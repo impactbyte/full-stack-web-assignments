@@ -1,6 +1,6 @@
 ## Spec
 
-> Untuk pengumpulan tugas anda dapat menggunakan GitHub serta jangan lupa untuk mengupload link repository kedalam `google classroom
+> Untuk pengumpulan tugas anda dapat menggunakan GitHub serta jangan lupa untuk mengupload link repository kedalam `google form
 
 Kamu adalah seorang web developer yang bekerja disalah satu perusahaan mabel di Jepara, kamu diminta untuk membuat sebuah website e-commerce dengan kemampuan untuk menyesuaikan ukuran layar pengguna. Ada 3 jenis layar yang diminta oleh kantor yaitu:
 

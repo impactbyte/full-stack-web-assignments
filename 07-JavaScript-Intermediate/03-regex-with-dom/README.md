@@ -1,5 +1,5 @@
 ## Specs
-> Untuk pengumpulan tugas anda dapat menggunakan GitHub serta jangan lupa untuk mengupload link repository kedalam `google classroom
+> Untuk pengumpulan tugas anda dapat menggunakan GitHub serta jangan lupa untuk mengupload link repository kedalam `google form
 
 Kamu adalah seorang programmer yang bekerja pada sebuah perusahaan keamanan, kamu diminta untuk melakukan validasi terhadap password yang sudah dimasukan oleh *user*. Tugasmu adalah untuk:
 

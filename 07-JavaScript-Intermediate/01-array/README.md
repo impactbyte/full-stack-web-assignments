@@ -1,6 +1,6 @@
 ## SPEC
 
-> Untuk pengumpulan tugas anda dapat menggunakan GitHub serta jangan lupa untuk mengupload link repository kedalam `google classroom`
+> Untuk pengumpulan tugas anda dapat menggunakan GitHub serta jangan lupa untuk mengupload link repository kedalam `google form`
 
 Kamu adalah seorang trader pemula, dan karna memiliki background IT kamu ingin membuat sebuah fungsi `getIncome` untuk mendapatkan nilai dari keuntungan yang dapat kita peroleh dengan rumus (*current price* - *previous price*) untuk setiap koin yang tersedia
 

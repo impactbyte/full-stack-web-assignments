@@ -1,6 +1,6 @@
 ## Specs
 
-> Untuk pengumpulan tugas anda dapat menggunakan GitHub serta jangan lupa untuk mengupload link repository kedalam `google classroom`
+> Untuk pengumpulan tugas anda dapat menggunakan GitHub serta jangan lupa untuk mengupload link repository kedalam `google form`
 
 Pada kesempatan kali ini kita akan belajar untuk mengambil data dari [jsonplaceholder](https://jsonplaceholder.typicode.com/), tugasmu adalah untuk mengambil seluruh `post` yang dibuat oleh *user* yang memiliki website bernama `kale.biz`. Langkah pengerjaan:
 
