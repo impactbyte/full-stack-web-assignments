@@ -10,7 +10,7 @@ Buatlah sebuah halaman website menggunakan HTML yang akan menampilkan:
 > - [repl](https://replit.com/)
 > - [stackblitz](https://stackblitz.com/)
 
-> Pengumpulan tugas dapat dilakukan dengan cara membagikan link pengerjaan tugas didalam `google classroom`
+> Pengumpulan tugas dapat dilakukan dengan cara membagikan link pengerjaan tugas didalam `google form`
 ## Expected Results
 ![website-pertamaku](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/html-assignment-website-pertamaku.png)
 

@@ -9,7 +9,7 @@ Kamu adalah seorang programmer yang bekerja pada suatu start-up terkini, kemudia
 2. cd fikri
 ```
 
-> Tugas bisa diupload ke `google drive` masing-masing, serta jangan lupa untuk mengumpulkan-nya pada `google classroom`
+> Tugas bisa diupload ke `google drive` masing-masing, serta jangan lupa untuk mengumpulkan-nya pada `google form`
 
 1. membuat sebuah folder kosong dengan nama-mu sendiri
 2. didalam *folder* tersebut buatlah

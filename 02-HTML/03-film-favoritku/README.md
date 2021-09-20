@@ -4,7 +4,7 @@
 > - [repl](https://replit.com/)
 > - [stackblitz](https://stackblitz.com/)
 
-> Pengumpulan tugas dapat dilakukan dengan cara membagikan link pengerjaan tugas didalam `google classroom`
+> Pengumpulan tugas dapat dilakukan dengan cara membagikan link pengerjaan tugas didalam `google form`
 
 1. membuat jarak menggunakan tag `br` sebanyak 2x setelah elemen terakhir
 2. membuat judul berupa `Film Favoritku` menggunakan tag `h1`

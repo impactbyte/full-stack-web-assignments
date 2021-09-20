@@ -4,7 +4,7 @@
 > - [repl](https://replit.com/)
 > - [stackblitz](https://stackblitz.com/)
 
-> Pengumpulan tugas dapat dilakukan dengan cara membagikan link pengerjaan tugas didalam `google classroom`
+> Pengumpulan tugas dapat dilakukan dengan cara membagikan link pengerjaan tugas didalam `google form`
 
 
 Kamu adalah seorang guru dari SMA Umbul Jauh Disana dengan jurusan Bahasa, kamu mendapatkan sebuah tugas melakukan seleksi pada daftar siswa yang sudah tersedia dengan spesifikasi sebagai berikut:

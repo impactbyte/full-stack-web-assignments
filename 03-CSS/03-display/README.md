@@ -4,7 +4,7 @@
 > - [repl](https://replit.com/)
 > - [stackblitz](https://stackblitz.com/)
 
-> Pengumpulan tugas dapat dilakukan dengan cara membagikan link pengerjaan tugas didalam `google classroom`
+> Pengumpulan tugas dapat dilakukan dengan cara membagikan link pengerjaan tugas didalam `google form`
 
 Buatlah baris kode dibawah sehingga ia akan membuat tampilan seperti ini, dengan cara:
 

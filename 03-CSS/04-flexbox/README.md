@@ -1,4 +1,7 @@
 ## Specs
+
+> Pengumpulan tugas dapat dilakukan dengan cara membagikan link pengerjaan tugas didalam `google form`
+
 Silakan mengerjakan semua soal pada [Flex Froggy](https://flexboxfroggy.com/) untuk melatih kemampuan kamu dalam memahami konsep Flexbox.
 
 ## Expected Results

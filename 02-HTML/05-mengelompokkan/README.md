@@ -4,7 +4,7 @@
 > - [repl](https://replit.com/)
 > - [stackblitz](https://stackblitz.com/)
 
-> Pengumpulan tugas dapat dilakukan dengan cara membagikan link pengerjaan tugas didalam `google classroom`
+> Pengumpulan tugas dapat dilakukan dengan cara membagikan link pengerjaan tugas didalam `google form`
 
 - mengelompokan komponen kedalam tag `section` atau `header`
 - tiap kelompok akan dipisahkan oleh 2 tag `br`, jadi kita memiliki 4 bagian
