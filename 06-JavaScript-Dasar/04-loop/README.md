@@ -12,11 +12,11 @@ Kalian diminta untuk menyelesaikan pertanyaan-pertanyaan dibawah ini secara bena
 /// EDIT HERE
 for (....) { }
 
+
 /// Soal - 02
 /// Kamu diminta untuk menemukan bilangan prima ke-50, temukan bilangan tersebut menggunakan while loop
-
 let primeCounter = 0;
-const fiftiethPrime;
+let fiftiethPrime;
 
 /// EDIT HERE
 while (....) {}
@@ -24,11 +24,11 @@ while (....) {}
 
 /// Soal - 03
 /// Kamu diminta untuk menemukan bilangan ganjil ke-50, temukan bilangan tersebut menggunakan do while loop
-
 let oddCounter = 0;
-const fiftiethOdd;
-do { .... } while (....)
+let fiftiethOdd;
 
+/// EDIT HERE
+do { .... } while (....)
 ```
 
 ## Expected Result
