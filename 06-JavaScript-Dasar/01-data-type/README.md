@@ -18,7 +18,8 @@ const upperCase = name;
 
 /// Soal - 02
 /// Gunakan built-in function yang dimiliki oleh Javascript, agar kita mengetahui apa tipe data yang dimiliki oleh variable age
-const ageInDays = age;
+const typeOfAge = age;
+console.log(typeOfAge)
 
 
 /// Soal - 03
@@ -39,7 +40,7 @@ const stringToNumber = "1000";
 
 ## Expected Result
 1. `upperCase` should be `"SKILVUL"`
-2. `ageInDays` should be `"number"`
+2. `typeOfAge` should be `"number"`
 3. `twoDigitsOfPi` should be `3.14`
 4. `isNotNumber` should be `false`
 5. `stringToNumber` should be `1000`
