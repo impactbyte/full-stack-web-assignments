@@ -11,31 +11,42 @@ Kalian diminta untuk menyelesaikan pertanyaan-pertanyaan dibawah ini secara bena
 /// Soal - 01
 /// Kamu diminta untuk membuat sebuah fungsi yang akan me-return berapa banyak pajak yang harus kamu bayarkan, fungsi tersebut memiliki spesifikasi sebagai berikut
 
+/// Spesifikasi
+/// - 0% pajak apabila $SALARY < Rp 5.000.000
+/// - 5% pajak apabila Rp 5.000.000 <= $SALARY < Rp 10.000.000
+/// - 10% pajak apabila Rp 10.000.000 <= $SALARY < Rp 20.000.000
+/// - 20% pajak apabila Rp 20.000.000 <= $SALARY 
+
 /// Parameter
 /// - (Number) `salary` => gaji yang kamu hasilkan
 
 /// Returnn Value
 /// - (Number) total pajak yang harus kamu bayarkan
-///   pajak senilai 10% dari total penghasilanmu saat ini apabila ia memiliki penghasilan
-///   lebih dari Rp 5.000.000, apabila kurang maka ia dibebaskan dari pajak atau bernilai 0
 
 /// EDIT HERE
 function taxCalc(....) { ... }
 
 
 /// Soal - 02
-/// BMI merupakan sebuah perhitungan yang mana dapat menunjukan apakah seseorang itu masuk dalam kategori obesitas atau tidak. Kamu diminta untuk membuat sebuah fungsi untuk menghitung BMI seseorang dengan detail sebagai berikut:
+/// BMI merupakan sebuah perhitungan yang mana dapat menunjukan apakah seseorang itu masuk dalam kategori obesitas atau tidak. Kamu diminta untuk membuat sebuah fungsi untuk menghitung BMI seseorang serta dapat menentukan apakah orang tersebut obesitas atau tidak.
+
+/// Spesifikasi BMI
+/// - "under weight" apabila $BMI < 18.5
+/// - "normal" apabila 18.5 < $BMI < 24.9
+/// - "over weight" apabila 25 < $BMI < 29.9
+/// - "obese" apabila 30 < $BMI < 34.9
+/// - "extremely obese" apabila 35 < BMI
 
 /// Parameter
-/// - (Number) `height` ⇒ tinggi seseorang (kg)
-/// - (Number) `weight` ⇒ berat badan seseorang (cm) 
+/// - (Number) `height` ⇒ tinggi seseorang (cm)
+/// - (Number) `weight` ⇒ berat badan seseorang (kg) 
 
 /// Return Value
-/// - (Number) hasil kalkulasi menggunakan formula BMI
-///   height / weight^2 * 10000
+/// - (String) Indikasi BMI yang didapatkan melalui formula dibawah
+///   (weight/(height^2)) * 10000
 
 /// EDIT HERE
-function BMI(....) { .... }
+function checkBMI(....) { .... }
 
 
 /// Soal - 03
@@ -52,36 +63,50 @@ function convToUpperCase(....) { .... }
 
 
 /// Soal - 04
-/// Buatlah sebuah fungsi yang mana nanti akan mengembalikan huruf pertama yang tidak kembar
+/// Buatlah sebuah fungsi yang mana nanti akan mengembalikan HURUF PERTAMA YANG TIDAK KEMBAR
+
+/// Spesifikasi
+/// - apabila inputan berupa kata yang dipisah, maka kembalikan "kata tidak boleh dipisah"
+/// - apabila inputan tidak memiliki karakter yang tidak kembar, maka kembalikan string kosong ""
+/// - apabila ditemukan lebih dari 0 karakter yang tidak sama, maka kembalikan karakter pertama yang tidak sama
 
 /// Parameter
 /// - (String) word => kata yang nanti akan kita gunakan untuk mencari huruf yang tidak kembar (KATA TIDAK BOLEH DIPISAH)
 
 /// Result Value
 /// (String) huruf yang pertama kali tidak ada kembarannya
-/// - kembalikan huruf yang tidak sama apabila kita menemukannya
-/// - jika tidak kita bisa mengembalikan string kosong
 
 /// EDIT HERE
-function nonRepeatChar(....) { .... }
+function firstNonRepeatedChar(....) { .... }
 ```
 
 ## Expected Result
 1. Soal - 01
     ```
-    salary = 4500000;
+    salary = 4.500.000;
     taxCalc should be 0
 
     #OR
 
-    salary = 7500000;
-    taxCacl should be 750000
+    salary = 5.000.000;
+    taxCacl should be 250.000
+
+    #OR
+
+    salary = 20.000.000;
+    taxCacl should be 4.000.000
     ```
 2. Soal - 02
     ```
     weight = 80
     height = 170
-    BMI should be 27.68
+    checkBMI should be "over weight"
+
+    #OR
+
+    weight = 80
+    height = 160
+    checkBMI should be "obese"
     ```
 3. Soal - 03
     ```
@@ -94,12 +119,16 @@ function nonRepeatChar(....) { .... }
     ```
 4. Soal - 04
     ```
+    word = "hello world"
+    firstNonRepeatedChar should be "kata tidak boleh dipisah"
+
+    #OR
     word = "alloha"
-    nonRepeatChar should be "o"
+    firstNonRepeatedChar should be "o"
 
     #OR
     word = "wooohoowh"
-    nonRepeatChar should be ""
+    firstNonRepeatedChar should be ""
     ```
 
 ## Key Learning Points
