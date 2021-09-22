@@ -39,7 +39,7 @@ const stringToNumber = "1000";
 
 ## Expected Result
 1. `upperCase` should be `"SKILVUL"`
-2. `ageInDays` should be `3650`
+2. `ageInDays` should be `3600`
 3. `twoDigitsOfPi` should be `3.14`
 4. `isNotNumber` should be `false`
 5. `stringToNumber` should be `1000`
