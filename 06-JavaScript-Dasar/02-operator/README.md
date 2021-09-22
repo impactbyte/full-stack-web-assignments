@@ -46,7 +46,7 @@ const final;
 
 
 ## Expected Result
-1. `sisaGaji` should be `1.550.000`
+1. `sisaGaji` should be `1.750.000`
 2. `isSame` should be `true`
 3. `isHigher` should be `false`
 4. `final` should be `false`
