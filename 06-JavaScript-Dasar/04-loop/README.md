@@ -14,7 +14,7 @@ for (....) { }
 
 
 /// Soal - 02
-/// Kamu diminta untuk menemukan bilangan prima ke-50, temukan bilangan tersebut menggunakan while loop (1 termasuk sebagai bilangan prima)
+/// Kamu diminta untuk menemukan bilangan prima ke-50, temukan bilangan tersebut menggunakan while loop 
 let primeCounter = 0;
 let fiftiethPrime;
 
