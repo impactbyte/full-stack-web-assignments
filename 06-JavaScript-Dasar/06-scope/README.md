@@ -8,6 +8,15 @@ Kalian diminta untuk menyelesaikan pertanyaan-pertanyaan dibawah ini secara bena
 
 ```Javascript
 /// Soal - 01
+/// Kita sudah belajar mengenai variable scope yang dimiliki oleh Javascript
+/// dan kamu diminta untuk merangkum tentang:
+/// - ada berapa banyak jumlah variable scope pada Javascript?
+/// - jelaskan secara singkat setiap variable scope yang dimiliki oleh Javascript
+/// - buatlah implementasi sederhana dari tiap-tiap variable scope yang dimiliki oleh Javascript
+
+/// WRITE YOUR ANALYSIS HERE
+
+/// Soal - 02
 /// Kamu diminta untuk melakukan analisa terhadap baris kode dibawah ini
 /// - apa yang akan tampil didalam comsole.log ?
 /// - apa alasan yang menyebabkan hasil dari console itu bukan nilai dari variable name?
@@ -21,21 +30,6 @@ function printFirstName(name) {
 }
 
 console.log(printFirstName("Mariah Carey"));
-
-
-/// Soal - 02
-/// Kamu diminta untuk melakukan analisa terhadap baris kode dibawah ini
-/// - apa yang akan terjadi apabila kita mencoba menjalankan baris kode dibawah?
-/// - apa alasan kenapa hal tersebut bisa terjadi?
-///   - dari segi salaryWithVar
-///   - dari segi salaryWithConst
-
-/// WRITE YOUR ANALYSIS HERE
-console.log(salaryWithVar)
-console.log(salaryWithConst)
-
-var salaryWithVar = 15000000;
-const salaryWithConst = 15000000;
 ```
 
 ## Key Learning Points
