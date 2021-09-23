@@ -1,4 +1,4 @@
-## Spec
+## Specs
 
 Selamat kali ini kamu telah mempelajari tentang bagaimana cara untuk melakukan refactoring UI menggunakan TailwindCSS. Pada kesempatan kali ini kita akan belajar untuk melakukan sedikit refactoring UI terhadap sebuah website pemerintahan yaitu [Kementrian Kesehatan](https://www.kemkes.go.id/).
 
