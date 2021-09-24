@@ -417,8 +417,8 @@ Untuk melihat hasil yang sudah jadi kalian dapat melihatnya via link
 ![skilvul](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/js-basic-dom-01.gif)
 
 ## Key Learning Points
-- memahami tatacara mengambil dan memanipulasi DOM
-- memahami cara penggunaan *event* pada DOM `onclick`
-- mengetahui cara menambah nilai dari sebuah *Array `.push`*
-- mengetahui *default* *property* yang dimiliki oleh *Arary* `.length`
 - mampu membuat sebuah *fungsi*
+- memahami tatacara mengambil dan memanipulasi DOM
+- memahami tatacara membuat sebuah element menggunakan DOM
+- memahami cara penggunaan *event* pada DOM `onclick`
+- memahami cara penggunaan *event* pada DOM `onsubmit`
