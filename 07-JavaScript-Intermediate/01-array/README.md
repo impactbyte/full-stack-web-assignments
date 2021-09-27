@@ -26,7 +26,8 @@ console.log(arr2, newArr2);
 ```
 
 ### Soal - 02
-Kamu diminta untuk membuat sebuah fungsi yang akan mengembalikan jumlah angka yang melebihi nilai rata-rata, fungsi tersebut memiliki spesifikasi sebagai berikut:
+Kamu diminta untuk membuat sebuah fungsi yang akan mengembalikan total berapa elemen bilangan/number yang melebihi nilai rata-rata dari sebuah array, fungsi tersebut memiliki spesifikasi sebagai berikut:
+
 - memiliki 1 parameter:
   - arr [`Array of Number`] => array 1 dimensi dengan nilai `Number`
 - *return value* [`Number`] total angka yang melebihi nilai rata-rata
@@ -81,8 +82,8 @@ console.log(searchInArray(arr, 8));
     ```
 2. Soal - 02
     ```Javascript
-    2
-    3
+    2 // Ada 2 bilangan yang melebihi nilai rata-rata yaitu 4 & 8
+    3 // Ada 3 bilangan yang melebihi nilai rata-rata yaitu 6, 7, dan 8
     ```
 3. Soal - 03
     ```Javascript
