@@ -69,12 +69,13 @@ const milkBasedCoffee = {
   },
 }
 
-const espresso = getObjectValue(milkBasedCoffee, "ingredients.espresso.origiin");
+const espresso = getObjectValue(milkBasedCoffee, "ingredients.espresso.origin");
 const coffeeBrand = getObjectValue(milkBasedCoffee, "ingredients.espresso.brand");
 const isMilkVegan = getObjectValue(milkBasedCoffee, "ingredients.milk.isVegan");
 
 console.log(espresso);
 console.log(coffeeBrand);
+console.log(isMilkVegan)
 ```
 
 ### Soal - 03
