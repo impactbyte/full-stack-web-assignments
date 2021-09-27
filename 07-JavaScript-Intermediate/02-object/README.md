@@ -85,6 +85,13 @@ Kamu adalah seorang trader pemula, dan karna memiliki background IT kamu ingin m
 - Segala perubahan hanya dapat dilakukan didalamm fungsi `calculateIncome`
 - Hasil haruslah sesuai dengan expektasi yang diberikan
 
+Langkah-langkah pengerjaan:
+1. hitung keuntungan yang kita hasilkan dari tiap-tiap koin dengan cara `(sell - buy)`
+2. ulangi langkah pertama, hingga kita selesai menghitung seluruh history transaksi yang ada (dalam contoh ini kita ada 3 buah history dari hari 1, 2, dan 3)
+3. jumlahkan seluruh keuntungan yang kita buat selama 3 hari berdasarkan koin yang kita gunakan
+4. rangkuman dari pendapatan kita HARUS berupa sebuah `object`
+5. pengerjaan harus menggunakan *built-in method* `reduce`
+
 Untuk mempermudah proses pengerjaan kamu dapat menggunakan *code template* dibawah ini
 
 ```Javascript
@@ -133,7 +140,7 @@ console.log(calculateIncome(items))
 3. Soal - 03
     ```JSON
     {
-      btc: 2,
+      btc: 0,
       doge: -2.5,
       eth: -1.5
     }
