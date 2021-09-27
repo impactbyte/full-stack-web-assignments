@@ -6,7 +6,42 @@
 ## Specs
 Kalian diminta untuk menyelesaikan pertanyaan-pertanyaan dibawah ini secara benar dan ikuti instruksi yang ada
 
+
 ### Soal - 01
+Kamu diminta untuk mengikuti instruksi dibawah dengan seksama:
+1. ubah field `name` pada variable `person` menjadi namamu sendiri
+2. ubah field `favDrinks` yang berisi `"temulawak"` menjadi `"tap water"`
+3. ubah field `greeting` menjadi sebuah fungsi, dengan spesifikasi
+   - memiliki 1 parameter
+     - name [`String`] => nama seseorang yang akan disapa
+   - *return value* [`String`] => akan mengembalikan sebuah `String` dengan format `"Hello, $NAME"`
+
+```Javascript
+const person = {
+  name: "person A",
+  age: 100,
+  favDrinks: [
+    "coffee",
+    "jamu temulawak",
+    "tea"
+  ],
+  greeting: function() {
+    console.log("hello world")
+  }
+}
+
+/// EDIT HERE
+
+
+/// STOP
+
+console.log(person.name);
+console.log(person.age);
+console.log(person.favDrinks);
+console.log(person.greeting("John Watson"));
+```
+
+### Soal - 02
 Kamu diminta untuk membuat sebuah fungsi yang akan mengembalikan sebuah nilai berdasarkan struktur `Object`, fungsi tersebut memiliki spesifikasi sebagai berikut:
 - 2 Parameter
    - obj `Object` => object yang akan kita ambil value-nya
@@ -42,8 +77,8 @@ console.log(espresso);
 console.log(coffeeBrand);
 ```
 
-### Soal - 02
-Kamu adalah seorang trader pemula, dan karna memiliki background IT kamu ingin membuat sebuah fungsi `calculateIncome` untuk mendapatkan nilai dari keuntungan yang dapat kita peroleh dengan rumus (*current price* - *previous price*) untuk setiap koin yang tersedia
+### Soal - 03
+Kamu adalah seorang trader pemula, dan karna memiliki background IT kamu ingin membuat sebuah fungsi `calculateIncome` untuk mendapatkan nilai dari keuntungan yang dapat kita peroleh dengan rumus `[sum of (sell - buy)]` untuk setiap koin yang tersedia
 
 - Gunakan *code template* yand diberikan untuk menyelesaikan masalah
 - Dilarang untuk mengubah nama `variable` atau `function` yang sudah tersedia didalam *code template*
@@ -53,13 +88,26 @@ Kamu adalah seorang trader pemula, dan karna memiliki background IT kamu ingin m
 Untuk mempermudah proses pengerjaan kamu dapat menggunakan *code template* dibawah ini
 
 ```Javascript
+// dibawah ini merupakan history transasksi yang telah kalian lakukan
 const items = [
-  [ { name: "btc", price: 10 }, { name: "eth", price: 7 }, { name: "doge", price: 5 } ],
-  [ { name: "btc", price: 9.2 }, { name: "eth", price: 7.3 }, { name: "doge", price: 5.8 } ],
-  [ { name: "btc", price: 8.7 }, { name: "eth", price: 8.1 }, { name: "doge", price: 6.3 } ],
-  [ { name: "btc", price: 8.4 }, { name: "eth", price: 8 }, { name: "doge", price: 6.7 } ],
-  [ { name: "btc", price: 8.9 }, { name: "eth", price: 6.3 }, { name: "doge", price: 5.9 } ],
-  [ { name: "btc", price: 9.3 }, { name: "eth", price: 5.6 }, { name: "doge", price: 5.1 } ],
+  {
+    btc: { buy: 10, sell: 9 },
+    eth: { buy: 8, sell: 7.5 },
+    doge: { buy: 7, sell: 6.5 },
+    day: 1,
+  },
+  {
+    btc: { buy: 9, sell: 5 },
+    eth: { buy: 7, sell: 4 },
+    doge: { buy: 6, sell: 3 },
+    day: 2,
+  },
+  {
+    btc: { buy: 5, sell: 10 },
+    eth: { buy: 4, sell: 6 },
+    doge: { buy: 3, sell: 4 },
+    day: 3,
+  },
 ];
 
 const calculateIncome = (items) => {
@@ -72,15 +120,22 @@ console.log(calculateIncome(items))
 
 ## Expected Result
 1. Soal - 01
+    ```Javascript
+    // namamu sendiri
+    100
+    ["coffee", "tap water", "tea"]
+    "Hello, John Watson"
+    ```
+2. Soal - 02
    - `espresso` should be `"lampung"`
    - `coffeeBrand` should be `null`
    - `isMilkVegan` should be `false`
-1. Soal - 01
+3. Soal - 03
     ```JSON
     {
-      btc: -0.6999999999999993,
-      doge: 0.09999999999999964,
-      eth: -1.4000000000000004
+      btc: 2,
+      doge: -2.5,
+      eth: -1.5
     }
     ```
 
