@@ -7,6 +7,25 @@
 Kalian diminta untuk menyelesaikan pertanyaan-pertanyaan dibawah ini secara benar dan ikuti instruksi yang ada
 
 ### Soal - 01
+Kamu diminta untuk membuat sebuah fungsi `reverse` yang mana akan membalik sebuah array, fungsi `reverse` memiliki sepsifikasi sebagai berikut:
+- memiliki 1 parameter yaitu:
+   - arr [array] => array yang akan kita manipulasi nilainya
+- *return value* berupa sebuah `array` baru yang sudah terbalik
+
+Untuk mempermudah proses pengerjaan kamu dapat menggunakan *code template* dibawah ini
+```Javascript
+const arr = [1, 2, 3];
+const arr2 = [8, 1, 5, 7];
+function reverse( .... ) { .... }
+
+const newArr = reverse(arr);
+const newArr2 = reverse(arr2);
+
+console.log(arr, newArr);
+console.log(arr2, newArr2);
+```
+
+### Soal - 02
 Kamu adalah seorang pada kantor dinas pemerintahan, kemudian atasanmu meminta untuk dibuatkan sebuah fungsi dengan spesifikasi sebagai berikut:
 - fungsi tersebut berfungsi untuk memasukan sebuah nilai baru kedalam array
 - apabila panjang array termasuk kedalam bilangan PRIMA, maka kita masukan nilai tersebut diawal baris array
@@ -29,42 +48,19 @@ for (let i = 2; i < 11; i++) {
 console.log(arr);
 ```
 
-### Soal - 02
-Kamu adalah seorang trader pemula, dan karna memiliki background IT kamu ingin membuat sebuah fungsi `calculateIncome` untuk mendapatkan nilai dari keuntungan yang dapat kita peroleh dengan rumus (*current price* - *previous price*) untuk setiap koin yang tersedia
 
-- Gunakan *code template* yand diberikan untuk menyelesaikan masalah
-- Dilarang untuk mengubah nama `variable` atau `function` yang sudah tersedia didalam *code template*
-- Segala perubahan hanya dapat dilakukan didalamm fungsi `calculateIncome`
-- Hasil haruslah sesuai dengan expektasi yang diberikan
+### Soal - 03
 
-Untuk mempermudah proses pengerjaan kamu dapat menggunakan *code template* dibawah ini
-
-```JS
-const items = [
-  [ { name: "btc", price: 10 }, { name: "eth", price: 7 }, { name: "doge", price: 5 } ],
-  [ { name: "btc", price: 9.2 }, { name: "eth", price: 7.3 }, { name: "doge", price: 5.8 } ],
-  [ { name: "btc", price: 8.7 }, { name: "eth", price: 8.1 }, { name: "doge", price: 6.3 } ],
-  [ { name: "btc", price: 8.4 }, { name: "eth", price: 8 }, { name: "doge", price: 6.7 } ],
-  [ { name: "btc", price: 8.9 }, { name: "eth", price: 6.3 }, { name: "doge", price: 5.9 } ],
-  [ { name: "btc", price: 9.3 }, { name: "eth", price: 5.6 }, { name: "doge", price: 5.1 } ],
-];
-
-const calculateIncome = (items) => {
-  /// EDIT DOWN HERE
-}
-
-console.log(calculateIncome(items))
+```Javascript
+const arr = [
+  [10]
+]
 ```
-
-
 ## Expected Result
 1. Soal - 01
-    ```JSON
-    {
-      btc: -0.6999999999999993,
-      doge: 0.09999999999999964,
-      eth: -1.4000000000000004
-    }
+    ```Javascript
+    [1, 2, 3], [3, 2, 1]
+    [8, 1, 5, 7], [7, 5, 1, 8]
     ```
 2. Soal - 02
     ```Javascript
