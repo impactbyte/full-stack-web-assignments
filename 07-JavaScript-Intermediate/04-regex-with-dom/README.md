@@ -1,9 +1,51 @@
 ## Description
-> Buatlah sebuah file sesuai dengan nama `04-regex-with-dom.html`, kemudian *copy and paste code template* yang sudah disediakan kedalam file yang sudah kamu buat lalu jawab seluruh soal yang ada. Kamu dapat menggunakan kode editor kesukaan untuk menjawab soal-soal tersebut. Ada beberapa peraturan yang harus kalian patuhi yaitu:
+> Buatlah sebuah file sesuai dengan nama `04-regex-with-dom-01.html` dan  `04-regex-with-dom-02.html`, kemudian *copy and paste code template* yang sudah disediakan kedalam file yang sudah kamu buat lalu jawab seluruh soal yang ada. Kamu dapat menggunakan kode editor kesukaan untuk menjawab soal-soal tersebut. Ada beberapa peraturan yang harus kalian patuhi yaitu:
 > - dilarang untuk mengubah nama dari variable yang ada
 > - dilarang untuk menghapus komentar
 
 ## Specs
+
+### Soal - 01
+Kamu diminta untuk membuat sebuah sistem validasi username dengan kriteria sebagai berikut:
+1. huruf pertama tidak boleh angka
+2. minimal 6 karakter
+3. tidak diperbolehkan untuk menggunakan simbol apapun
+
+Berikut merupakan response yang akan kita berikan sesuai dengan masukan dari user:
+- **valid** => menampilkan sebuah `alert` dengan pesan `"selamat datang $USERNAME"`
+- **invalid** => menampilkan sebuah `alert` dengan pesan `"mohon masukan username yang valid"`
+
+untuk memperudah proses pengerjaan kami sudah menyediakan *code template* dibawah:
+```Javascript
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Regex and DOM - 01</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="username">Username</label>
+        <input type="text" id="username" />
+      </div>
+      <button type="submit">submit</button>
+    </form>
+
+    <script>
+      // EDIT DOWN HERE
+      const elInputUsername = .....;
+      const elBtnSubmit = .....;
+      const elForm = .....;
+      const usernameValidator = new RegExp(".....")
+    </script>
+  </body>
+</html>
+```
+
+### Soal - 02
 Kamu adalah seorang programmer yang bekerja pada sebuah perusahaan keamanan, kamu diminta untuk melakukan validasi terhadap sistem registrasi pelanggan, berikut merupakan langakah-langkah yang dapat kamu ambil untuk menyelesaikan tugasmu:
 
 1. menggambil data dari inputan user baik itu `"email"` ataupun `"password"`
@@ -50,9 +92,14 @@ Kamu adalah seorang programmer yang bekerja pada sebuah perusahaan keamanan, kam
 > - hasil haruslah sesuai dengan ekspektasi yang telah diberikan
 
 ## Expected Result
-- apabila kita berikan *email* = `"me@mailco"` dan *password* `"Adm!n123"` maka hasilnya akan<br>`tolong masukan email yang valid`
-- apabila kita berikan *email* = `"me@mail.co"` dan *password* `"Ad!n5"` maka hasilnya akan<br>`tolong masukan password sesuai ketentuan`
-- apabila kita berikan *email* = `"me@email.com"` dan *password* `"Adm!n123"` maka hasilnya akan<br>`Welcome to The Jungle`
+1. Soal - 01
+   - `"4pakabar"` should be `"mohon masukan username yang valid"`
+   - `"johnWatson"` should be `"selamat datang johnWatson"`
+   - `"john.watson"` should be `"mohon masukan username yang valid"`
+2. Soal - 02
+   - apabila kita berikan *email* = `"me@mailco"` dan *password* `"Adm!n123"` maka hasilnya akan<br>`tolong masukan email yang valid`
+   - apabila kita berikan *email* = `"me@mail.co"` dan *password* `"Ad!n5"` maka hasilnya akan<br>`tolong masukan password sesuai ketentuan`
+   - apabila kita berikan *email* = `"me@email.com"` dan *password* `"Adm!n123"` maka hasilnya akan<br>`Welcome to The Jungle`
 
 ## Key Learning Point
 - Peserta memahami *built-in function* yang dimiliki oleh `String`
