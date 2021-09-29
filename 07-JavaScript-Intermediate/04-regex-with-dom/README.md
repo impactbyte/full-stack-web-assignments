@@ -26,20 +26,24 @@ untuk memperudah proses pengerjaan kami sudah menyediakan *code template* dibawa
     <title>Regex and DOM - 01</title>
   </head>
   <body>
-    <form>
+    <form id="form">
       <div>
         <label for="username">Username</label>
         <input type="text" id="username" />
       </div>
-      <button type="submit">submit</button>
+      <button id="btn-submit" type="submit">submit</button>
     </form>
 
     <script>
       // EDIT DOWN HERE
-      const elInputUsername = .....;
-      const elBtnSubmit = .....;
-      const elForm = .....;
-      const usernameValidator = new RegExp(".....")
+      const elInputUsername = document.querySelector("#username");
+      const elBtnSubmit = document.querySelector("#btn-submit");
+      const elForm = document.querySelector("#form");
+      const usernameValidator = new RegExp(".....");
+
+      elForm.onsubmit = function(e) {
+        e.preventDefault();
+      }
     </script>
   </body>
 </html>
