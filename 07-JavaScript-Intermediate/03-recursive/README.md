@@ -4,7 +4,7 @@
 > - dilarang untuk menghapus komentar
 
 ## Specs
-Kalian diminta untuk menyelesaikan pertanyaan-pertanyaan dibawah ini secara benar dan ikuti instruksi yang ada
+Kalian diminta untuk menyelesaikan pertanyaan-pertanyaan di bawah ini secara benar dan ikuti instruksi yang ada
 
 ### Soal - 01
 Kalian diminta untuk membuat sebuah fungsi `sumOfArray` dimana ia akan menghitung total dari sebuah `array of number`, fungsi tersebut memiliki spesifikasi sebagai berikut:
@@ -51,7 +51,7 @@ Kalian diminta untuk membuat fungsi yang mana akan mencari sebuah nilai didalam 
 1. fungsi harus ditulis menggunakan `recursive`
 2. memiliki 2 parameter:
    - arr [`Array`] => array of number yang nanti akan kita cari value-nya
-   - numm [`Number`] => angka yang hendak kita cari
+   - num [`Number`] => angka yang hendak kita cari
 3. *return value*:
    - apabila kita tidak menemukan angka tersebut maka kita akan mengembalikan `"angka tidak ditemukan"`
    - apabila kita menemukan angka tersebut maka kita akan mengembalikan `"angka ditemukan pada index: $INDEX"`
@@ -67,7 +67,7 @@ searchInArray(arr, 8);
 
 
 ### Soal - 04
-Kalian diminta untuk membuat fungsi yang mana nantinya akan mencetak sebuah piramida, fungsi tersebut memiliki spesifikasi sebagai berikut:
+Kalian diminta untuk membuat fungsi yang mana nantinya akan mencetak sebuah piramida **alfabet**, fungsi tersebut memiliki spesifikasi sebagai berikut:
 1. fungsi harus ditulis menggunakan `recursive`
 2. memiliki 2 parameter yang identik dengan tipe data `Number`, hal ini kita butuhkan untuk membuat sebuah perulangan menggunakan `recursive`
 3. bentuk segitiga dapat kalian cetak menggunakan console.log didalam fungsi `trianglePattern`
