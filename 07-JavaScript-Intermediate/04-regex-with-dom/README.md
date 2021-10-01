@@ -96,11 +96,11 @@ Kamu adalah seorang programmer yang bekerja pada sebuah perusahaan keamanan, kam
 > - hasil haruslah sesuai dengan ekspektasi yang telah diberikan
 
 ## Expected Result
-1. Soal - 01
+1. Soal - 03
    - `"4pakabar"` should be `"mohon masukan username yang valid"`
    - `"johnWatson"` should be `"selamat datang johnWatson"`
    - `"john.watson"` should be `"mohon masukan username yang valid"`
-2. Soal - 02
+2. Soal - 04
    - apabila kita berikan *email* = `"me@mailco"` dan *password* `"Adm!n123"` maka hasilnya akan<br>`tolong masukan email yang valid`
    - apabila kita berikan *email* = `"me@mail.co"` dan *password* `"Ad!n5"` maka hasilnya akan<br>`tolong masukan password sesuai ketentuan`
    - apabila kita berikan *email* = `"me@email.com"` dan *password* `"Adm!n123"` maka hasilnya akan<br>`Welcome to The Jungle`
