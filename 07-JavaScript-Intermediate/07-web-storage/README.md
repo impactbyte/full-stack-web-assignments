@@ -6,49 +6,48 @@
 ## Specs
 
 ### Soal - 01
-Kamu diminta untuk melakukan analisa sederhana terhadap beberapa masalah dan tulisakan jawaban-mu didalam file `07-web-storage-01.txt`.
+Kamu diminta untuk melakukan analisa sederhana terhadap beberapa masalah dan tuliskan jawaban kamu di dalam file `07-web-storage-01.txt`.
 1. Apa itu `localStorage`?
-2. Apa itu `cookie`?
+2. Apa itu `cookies`?
 3. Apa perbedaan antara `localStorage` dan `sessionStorage`?
 
 ### Soal - 02
-Kamu diminta untuk membuat sebuah fitur login sederhana menggunakan HTML dan Javascript, berikut adalah langkah-langkah yang dapat kamu ambil untuk menyelesaikan masalah tersebut:
+Kamu diminta untuk membuat sebuah fitur login sederhana menggunakan HTML dan JavaSript, berikut adalah langkah-langkah yang dapat kamu ambil untuk menyelesaikan masalah tersebut:
 1. buat file `07-web-storage-02.html` dan  `07-web-storage-dummy-data.js`
-2. `copy n paste` semua data dari `dummy-data.js` ke   `07-web-storage-dummy-data.js`
-3. cek apakah didalam `sessionStorage` terdapat sebuah data dengan kunci `"username"`, apabila iya maka
+2. **copy** dan **paste** semua data dari `dummy-data.js` ke   `07-web-storage-dummy-data.js`
+3. cek apakah di dalam `sessionStorage` sudah terdapat sebuah data dengan kunci `"username"`, apabila iya maka
    - hilangkan class `d-none` pada element dengan id `div-username`, serta sembunyikan `form` dengan cara menambahkan class `"d-none"` serta
    - berikan `innerHTML` *element* yang memiliki id `username` dengan isi `username` yang sudah kita ambil melalui `sessionStorage`
-4. ambil data `username` ketika user menekan tombol `login`
-5. simpan `username` kedalam `sessionStorage` dengan nama kunci `"username"`
-6. hilangkan class `d-none` pada element dengan id `div-username`, serta sembunyikan `form` dengan cara menambahkan class `"d-none"`
-7. berikan `innerHTML` *element* yang memiliki id `username` dengan isi dari `username` yang sudah dimasukan oleh user
+4. Jika belum, maka: 
+    - ambil data `username` ketika user menekan tombol `login`
+    - simpan `username` kedalam `sessionStorage` dengan nama kunci `"username"`
+    - hilangkan class `d-none` pada element dengan id `div-username`, serta sembunyikan `form` dengan cara menambahkan class `"d-none"`
+    - berikan `innerHTML` *element* yang memiliki id `username` dengan isi dari `username` yang sudah dimasukan oleh user
 
 ### Soal - 03
-Kali ini kita akan menambahkan fitur pertemanan pada aplikasi yang sudah kita buat pada pertanyaan sebelumnya, fitur tersebut memiliki spesifikasi sebagai berikut:
+Kali ini kita akan menambahkan fitur pertemanan pada aplikasi yang sudah kita buat pada pertanyaan sebelumnya dan gunakan sebelumnya yaitu `07-web-storage-02.html` dan `07-web-storage-dummy-data.js`, fitur tersebut memiliki spesifikasi sebagai berikut:
 1. seorang user dapat memiliki banyak teman
 2. user dapat melakukan *follow* atau *unfollow*
-3. *follow* akan menambahkan teman kedalam data follow
-4. sedangkan *unfollow* akan menghapus teman dari data follow 
-5. serta kita akan menampilkan berapa banyak teman yang sudah kita miliki menggunakan `badge` yang ada didalam elemen `button`
+3. *follow* akan menambahkan teman kedalam data following
+4. sedangkan *unfollow* akan menghapus teman dari data following 
+5. serta kita akan menampilkan berapa banyak teman yang sudah kita miliki menggunakan `badge` yang ada di dalam elemen `button`
 
-Berikut merupakan langkah-langkah yang dapat kalian gunakan untuk menyelesaikan pertanyaan tersebut:
-1. cek apakah didalam `localStorage` terdapat sebuah dengan kunci nama dari user yang login saat ini
-2. apabila data tersebut ditemukan maka kita perlu:
-   - menampilkan jumlah teman menggunakan `badge`, `badge` berada didalam element yang memiliki id `badge-user`
-   - mengubah button follow menjadi `"unfollow"` dan berwarna hijau, apabila orang tersebut sudah ada didalam daftar teman kita
-3. menambahkan action didalam setiap card button
-   - apabila user tidak ada didalam daftar pertemanan maka ketika kita menekan tombol follow ia akan:
-     - menambahkan data orang tersebut kedalam daftar teman
-     - kemudian kita perlu menyimpan daftar pertemanan tersebut kedalam `localStorage` dengan nama kunci user yang sekarang sedang login
-     - ubah teks dari tombol follow menjadi unfollow
+Berikut merupakan langkah-langkah yang dapat kalian gunakan untuk menyelesaikannya:
+1. cek apakah di dalam `localStorage` terdapat sebuah `key` bernama `username` dari user yang login saat ini
+2. apabila data tersebut ditemukan dan user sudah login maka kita perlu:
+   - menampilkan jumlah teman yang didapatkan dari  `07-web-storage-dummy-data.js` menggunakan `badge`, `badge` berada di dalam element yang memiliki id `badge-user`
+   - mengubah button `follow` menjadi `unfollow` dan berwarna hijau, apabila orang tersebut sudah ada di dalam daftar teman kita
+3. menambahkan action di dalam setiap card button
+   - apabila user tidak ada di dalam daftar pertemanan maka ketika kita menekan tombol `follow` ia akan:
+     - menambahkan data orang tersebut kedalam daftar teman. Kemudian kita perlu menyimpan daftar pertemanan tersebut ke dalam `localStorage` untuk `key` `username` yang sekarang sedang login
+     - ubah teks dari tombol `follow` menjadi `unfollow`
      - ubah warna tombol menjadi hijau dengan cara menambahkan `btn-success`, dan jangan lupa untuk menghapus warna tombol sebelumnya
-   - apa user sudah ditemukan maka ketika kita menekan tombol unfollow ia akan:
-     - menghapus orang tersebut dari daftar pertemanan
-     - kemudian kita perlu menyimpan ulang daftar pertemanan tersebut kedalam `localStorage` dengan nama yang sama
-     - ubah teks dari tombol unfollow menjadi follow
+   - apabila user sudah ditemukan maka ketika kita menekan tombol `unfollow` ia akan:
+     - menghapus orang tersebut dari daftar pertemanan kemudian kita perlu menyimpan ulang daftar pertemanan tersebut ke dalam `localStorage` untuk `key` `username` yang sama
+     - ubah teks dari tombol `unfollow` menjadi `follow`
      - ubah warna tombol menjadi biru dengan cara menambahkan `btn-primary`, dan jangan lupa untuk menghapus warna tombol sebelumnya
 
-berikut merupakan *template code* untuk file `07-web-storage-02.html` 
+Berikut merupakan *template code* untuk file `07-web-storage-02.html` 
 ```HTML
 <!DOCTYPE html>
 <html lang="en">
@@ -84,12 +83,12 @@ berikut merupakan *template code* untuk file `07-web-storage-02.html`
         <div id="div-username" class="d-none d-flex">
           <button
             type="button"
-            class="btn btn-primary btn-sm position-relative h-50 my-auto"
+            class="my-auto btn btn-primary btn-sm position-relative h-50"
           >
             <span id="username"></span>
             <span
               id="badge-user"
-              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger d-none"
+              class="top-0 position-absolute start-100 translate-middle badge rounded-pill bg-danger d-none"
             >
               10
               <span class="visually-hidden">unread messages</span>

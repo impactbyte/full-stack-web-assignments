@@ -101,7 +101,7 @@ Soal ini berhubungan dengan soal `Javascript Intermediate -> 04-regex-with-dom -
       const elInputPassword = document.querySelector("#input-password");
 
       // EDIT HERE
-      log.console = sayHello();
+      sayHello;
 
     </script>
   </body>
