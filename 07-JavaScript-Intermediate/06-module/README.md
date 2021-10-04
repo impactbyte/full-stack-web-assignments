@@ -7,9 +7,9 @@
 Kalian diminta untuk menyelesaikan pertanyaan-pertanyaan dibawah ini secara benar dan ikuti instruksi yang ada
 
 ### Soal - 01
-Kamu diminta untuk memperbaiki baris kode dibawah agar ia dapat menggunakan fungsi yang berada pada file `06-module-helpers.js`, ada beberapa hal yang perlu kalian perbaiki salah satu diantaranya adalah:
-1. menambahkan `attribute` yang diperlukan untuk memanggil sebuah `module` Javascript
-2. perbaiki proses `import` fungsi `sayHello` yang berada didalam file `06-module.html`
+Kamu diminta untuk memperbaiki baris kode dibawah agar ia dapat menggunakan fungsi yang berada pada file `06-module-helpers.js`, ada beberapa hal yang perlu kalian perbaiki diantaranya adalah:
+1. menambahkan `attribute` yang diperlukan untuk memanggil sebuah `module` JavaScript di dalam `06-module.html`
+2. perbaiki proses `import` fungsi `sayHello` yang berada di dalam file `06-module.html`
 3. `export` fungsi `sayHello` secara `"default"` agar ia bisa kita panggil secara langsung
 4. perbaiki proses eksekusi dari fungsi `sayHello` 
 
@@ -24,7 +24,7 @@ Kamu diminta untuk melakukan implementasi terhadap suatu fungsi `greeting` yang 
 
 
 ### Soal - 03
-Soal ini berhubungan dengan soal `Javascript Intermediate -> 04-regex-with-dom -> soal-04`, kamu diminta untuk melakukan hal yang sama yaitu melakukan validasi terhadap inputan user yang berupa `email` dan `password`. Pada kesempatan kali ini kita akan melaukan implementasi tersebut menggunakan `module`, berikut adalah lanngkah-langkah pengerjaanya:
+Soal ini berhubungan dengan soal `Javascript Intermediate -> 04-regex-with-dom -> soal-04`, kamu diminta untuk melakukan hal yang sama yaitu melakukan validasi terhadap inputan user yang berupa `email` dan `password`. Pada kesempatan kali ini kita akan melakukan implementasi tersebut menggunakan `module`, berikut adalah lanngkah-langkah pengerjaanya:
 
 1. buat sebuah file dengan nama `06-modules-authentication.js`
 2. ambil fungsionalitas untuk melakukan pengecekan terhadap `email` dan `password` dan taruh didalam fungsi dengan spesifikasi berikut:
