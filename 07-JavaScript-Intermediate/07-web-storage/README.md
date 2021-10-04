@@ -170,3 +170,11 @@ Berikut merupakan *template code* untuk file `07-web-storage-02.html`
 
    ![skilvul](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/web-storage-02.gif)
 
+
+## Key Learning Points
+- Peserta mengetahui dan dapat mengimplementasikan `DOM`
+- Peserta mengetahui dan dapat mengimplementasikan `Array`
+- Peserta mengetahui dan dapat mengimplementasikan `Object`
+- Peserta mengetahui apa itu `web-storage`
+- Peserta mengetahui perbedaan antara `web-storage` satu dengan yang lainnya
+- Peserta mampu melakukan implementasi dari `web-storage`
