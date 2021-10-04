@@ -162,9 +162,12 @@ Berikut merupakan *template code* untuk file `07-web-storage-02.html`
 ```
 
 ## Expected Result
+
 2. Soal - 02
+
    ![skilvul](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/web-storage-01.gif)
 3. Soal - 03
+
    ![skilvul](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/web-storage-02.gif)
 
 ## Key Learning Point
