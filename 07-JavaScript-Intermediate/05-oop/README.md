@@ -146,7 +146,7 @@ console.log(johnWatson.courseOfferings);
    "Ponsel ini memiliki storage: 64 dan ram: 4"
    "Ponsel ini memiliki storage: 32 dan ram: 2"
    ```
-2. Soal - 03
+2. Soal - 04
 ![skilvul](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/OOP-03.png)
 
 ## Key Learning Points
