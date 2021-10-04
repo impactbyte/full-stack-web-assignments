@@ -170,8 +170,3 @@ Berikut merupakan *template code* untuk file `07-web-storage-02.html`
 
    ![skilvul](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/web-storage-02.gif)
 
-## Key Learning Point
-- Peserta memahami *built-in function* yang dimiliki oleh `String`
-- Peserta memahami *built-in function* yang dimiliki oleh `Array`
-- dapat memahami kegunaan dan mampu untuk mengimplementasikan `regex`
-- memahami konsep dari `DOM`
