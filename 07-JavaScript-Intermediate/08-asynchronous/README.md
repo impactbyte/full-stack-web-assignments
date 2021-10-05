@@ -103,7 +103,7 @@ const getGithuUserFollowers = ( .... ) => { .... }
 
 const fourthQuestion = ( .... ) => {
   const mojomboFollowers = await getGithuUserFollowers("mojombo");
-  const orangeFollowers = await getGithuUserFollowers("orange");
+  const orangeFollowers = await getGithuUserFollowers("");
   const ujangFollowers = await getGithuUserFollowers("ujang");
 
   console.log(mojomboFollowers);
