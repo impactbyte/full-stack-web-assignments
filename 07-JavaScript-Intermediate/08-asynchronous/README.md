@@ -208,4 +208,3 @@ elFormUsername.onsubmit = (e) => {
 - Peserta dapat memahami dan mampu menerapkan `fetch`
 - Peserta dapat memahami dan mampu menerapkan `DOM`
 - Peserta dapat memahami dan mampu menerapkan penggunaan dari `Arrow Function`
-- Peserta dapat memahami dan mampu menerapkan penggunaan dari `Arrow Function`
