@@ -1,12 +1,8 @@
-## Description
-> Buatlah sebuah file sesuai dengan nama `08-asynchronous`, kemudian *copy and paste code template* yang sudah disediakan kedalam file yang sudah kamu buat lalu jawab seluruh soal yang ada. Kamu dapat menggunakan kode editor kesukaan untuk menjawab soal-soal tersebut. Ada beberapa peraturan yang harus kalian patuhi yaitu:
-> - dilarang untuk mengubah nama dari variable yang ada
-> - dilarang untuk menghapus komentar
-
-
 ## Specs
 
 ### Soal - 01
+Buatlah file `01-asynchronous.js` dan copy template soal di bawah. Lalu berikan jawaban sesuai nomor soal yang disediakan. 
+
 Kamu diminta untuk melakukan analisa sederhana mengenai
 ```Javascript
 // 1. Apa itu synchronous?
@@ -22,6 +18,8 @@ for (var i = 1; i<=5; i++) {
 ```
 
 ### Soal - 02
+Buatlah file `02-asynchronous.js` dan copy template soal di bawah. Lalu berikan jawaban tersebut pada `02-asynchronous.js`. 
+
 Kamu diminta untuk membuat sebuah fungsi yang akan melakukan pengecekan apakah seseorang sudah memasuki usia dewasa atau tidak, berikut adalah deskripsi fungsi tersebut:
 - name => `isR18Plus`
 - parameter
@@ -51,6 +49,8 @@ printR18Plus();
 
 
 ### Soal - 03
+Buatlah file `02-asynchronous.js` dan copy template soal di bawah. Lalu berikan jawaban tersebut pada `03-asynchronous.js`. 
+
 Kamu diminta untuk membuat sebuah fungsi `getGitHubUser` yang akan mengambil profile dari seorang user pada platform GitHub, fungsi tersebut memiliki deskripsi sebagai berikut:
 - nama => `getGitHubUser`
 - description => mengambil profile seorang user yang telah terdaftar pada platform GitHub
@@ -83,7 +83,7 @@ printGitHubUser();
 
 ### Soal - 04
 Kamu diminta untuk membuat sebuah website yang mana akan menampilkan GitHub user, berikut adalah deskripsi dari program yang akan kalian buat:
-- buatlah file dengan nama `08-asynchronous.html` dan `08-asynchronous-dom.js`
+- buatlah file dengan nama `04-asynchronous.html` dan `04-asynchronous-dom.js`
 - *copy and paste* baris kode dibawah sesuai dengan file yang telah ditentukan
 - *user* akan memasukan `username` GitHub yang ingin dicari melalui [GitHub API](https://docs.github.com/en/rest/reference/users#get-a-user)
   - apabila kita menemukan *user* tersebut maka ia akan menampilkan hasil seperti dibawah ini
@@ -94,11 +94,11 @@ Kamu diminta untuk membuat sebuah website yang mana akan menampilkan GitHub user
     ![skilvul](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/08-asychronous-02.png)
 
 Berikut merupakan langkah-langkah pengerjaan yang dapat kalian ikuti:
-1. *copy and paste* fungsi yang sudah kalian buat pada `soal-03` kedalam file `08-asynchronous-dom.js`
+1. *copy and paste* fungsi yang sudah kalian buat pada `soal-03` kedalam file `04-asynchronous-dom.js`
 2. ambil data dari `form` `"username"` serta jangan lupa untuk menggunakan `preventDefault` untuk mencegah agar jendela *browser* tidak terjadi *refresh*
 3. setelah kita mengambil data `"username"`, kita akan mengambil GitHub *user* menggunakan GitHub API
 
-Berikut merupakan *code template* untuk file `08-asychronous.html`
+Berikut merupakan *code template* untuk file `04-asychronous.html`
 ```HTML
 <!DOCTYPE html>
 <html lang="en">
@@ -160,7 +160,7 @@ Berikut merupakan *code template* untuk file `08-asychronous.html`
 </html>
 ```
 
-Berikut merupakan *code template* untuk file `08-asychronous-dom.js`
+Berikut merupakan *code template* untuk file `04-asychronous-dom.js`
 ```Javascript
 const elFormUsername = document.querySelector("#form-username");
 const elCard = document.querySelector(".card");
