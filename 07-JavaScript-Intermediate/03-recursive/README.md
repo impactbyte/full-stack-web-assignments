@@ -91,7 +91,7 @@ trianglePattern(5, 5);
    ```
 2. Soal - 02
    ```Javascript
-   3 // Ada 3 elemen yang melebihi atau sama dengan nilai rata-rata yaitu 3, 4, dan 5
+   2 // Ada 3 elemen yang melebihi atau sama dengan nilai rata-rata yaitu 4 dan 5
    2 // Ada 3 elemen yang melebihi atau sama dengan nilai rata-rata yaitu 10 dan 22
    ```
 3. Soal - 03
