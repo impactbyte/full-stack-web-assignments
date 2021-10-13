@@ -21,19 +21,19 @@ Ada banyak hal yang dapat kita *improve*, namun tidak semua hal yang akan kita p
 1. `Navbar`
    - berikan `drop-shadow` sehingga kita dapat menciptakan *depth* antara `navbar` dan `dashboard content`
 2. `Sidebar`
-   - ubah proporsi `grid` dari `sidebar` menjadi `3/12` menggunakan
+   - ubah proporsi `grid` dari `sidebar` menjadi `3/12`
    - untuk memberikan depth antar menu kita dapat melakukan beberapa hal:
      - berikan padding `horizontal=5` dan `vertical=2`
      - berikan border kiri dengan `width=8` dan warna `red-500` serta ubah warna teks menjadi `red-500` hal tersebut agar kita memiliki *visual* *menu* manakah yang sedang aktif
      - berikan `background-color` dengan warna `red-200` dan ubah `cursor` menjadi `pointer` apabila kita melakukan *hover* terhadap sebuah *menu*
-     - berikan `character spacing` pada tiap-tiap *menu* agar kita dapat membaca huruf cetak besar dengan lebih mudah
+     - berikan `letter spacing` pada tiap-tiap *menu* agar kita dapat membaca huruf cetak besar dengan lebih mudah
 3. `Content`
    - elemen dengan `id="content"`
     - ubah proporsi `grid` dari elemen tersebut menjadi `9/12`
    - elemen dengan `id="summary-card"`
      - ubah proporsi `grid` dari elemen tersebut menjadi `1/4` untuk masing-masing `card`
-     - tukar antara `label` dengan `value` yang kita tampilkan, hal ini berguna karna kita ingin *user* fokus pada nilai bukan *label*
      - tambahkan `dropshadow` untuk masing-masing `card` untuk menciptakan kesan *depth*
+     - tukar posisi antara label dengan value yang kita tampilkan, hal ini berguna karna kita ingin user fokus pada value bukan label
 
 
 Berikut merupakan *template code* yang akan kalian gunakan untuk mengerjakan soal diatas
