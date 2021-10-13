@@ -21,16 +21,19 @@ Ada banyak hal yang dapat kita *improve*, namun tidak semua hal yang akan kita p
 1. `Navbar`
    - berikan `drop-shadow` sehingga kita dapat menciptakan *depth* antara `navbar` dan `dashboard content`
 2. `Sidebar`
-   - ubah proporsi `sidebar` menjadi `3/12`
+   - ubah proporsi `grid` dari `sidebar` menjadi `3/12` menggunakan
    - untuk memberikan depth antar menu kita dapat melakukan beberapa hal:
      - berikan padding `horizontal=5` dan `vertical=2`
-     - berikan border dengan `width=8` dan warna `red-500` serta ubah warna teks menjadi `red-500` hal tersebut agar kita memiliki *visual* *menu* manakah yang sedang aktif
+     - berikan border kiri dengan `width=8` dan warna `red-500` serta ubah warna teks menjadi `red-500` hal tersebut agar kita memiliki *visual* *menu* manakah yang sedang aktif
      - berikan `background-color` dengan warna `red-200` dan ubah `cursor` menjadi `pointer` apabila kita melakukan *hover* terhadap sebuah *menu*
+     - berikan `character spacing` pada tiap-tiap *menu* agar kita dapat membaca huruf cetak besar dengan lebih mudah
 3. `Content`
-   - ubah proporsi `content` menjadi `9/12`
-   - *summary card*
-     - ubah proporsi menjadi `1/4` untuk masing-masing `card`
+   - elemen dengan `id="content"`
+    - ubah proporsi `grid` dari elemen tersebut menjadi `9/12`
+   - elemen dengan `id="summary-card"`
+     - ubah proporsi `grid` dari elemen tersebut menjadi `1/4` untuk masing-masing `card`
      - tukar antara `label` dengan `value` yang kita tampilkan, hal ini berguna karna kita ingin *user* fokus pada nilai bukan *label*
+     - tambahkan `dropshadow` untuk masing-masing `card` untuk menciptakan kesan *depth*
 
 
 Berikut merupakan *template code* yang akan kalian gunakan untuk mengerjakan soal diatas
@@ -93,8 +96,8 @@ Berikut merupakan *template code* yang akan kalian gunakan untuk mengerjakan soa
           category
         </li>
       </ol>
-      <div class="col-span-8 bg-red-100 p-8 md:px-16 md:py-8">
-        <div class="grid">
+      <div id="content" class="col-span-8 bg-red-100 p-8 md:px-16 md:py-8">
+        <div id="summary-card" class="grid">
           <div
             class="bg-white h-28 w-full p-5 rounded shadow"
           >
@@ -394,11 +397,12 @@ Pada kesempatan kali ini kita akan melanjutkan apa sudah kalian kerjakan pada so
 2. `sidebar`
    - sembunyikan atau hilangkan elemen tersebut apabila ukuran layar *user* sudah mencapai `breakpoint=sm`
 3. `content`
-   - apabila ukuran layar *user* sudah mencapai `breakpoint=sm` atau lebih kecil ubah proporsi grid menjadi `12/12` atau ia akan mengambil seluruh tempat yang tersedia
-   - `summary card`
-     - ubah proporsi `card` menjadi `1/4` apabila ukuran layar *user* sama atau lebih besar dari `breakpoint=md`
-     - ubah proporsi `card` menjadi `2/4` apabila ukuran layar *user* mencapai `breakpoint=sm`
-     - ubah proporsi `card` menjadi `1/4` apabila ukuran layar *user* lebih kecil dari `breakpoint=sm`
+   - elemen dengan `id="content"`
+     - apabila ukuran layar *user* sudah mencapai `breakpoint=sm` atau lebih kecil ubah proporsi `grid` pada elemen tersebut menjadi `12/12` atau ia akan mengambil seluruh tempat yang tersedia
+   - elemen dengan `id="summary-card"`
+     - ubah proporsi `grid` pada tiap-tiap elemen `card` menjadi `1/4` apabila ukuran layar *user* sama atau lebih besar dari `breakpoint=md`
+     - ubah proporsi `grid` pada tiap-tiap elemen `card` menjadi `2/4` apabila ukuran layar *user* mencapai `breakpoint=sm`
+     - ubah proporsi `grid` pada tiap-tiap elemen `card` menjadi `1/4` apabila ukuran layar *user* lebih kecil dari `breakpoint=sm`
    - `table`
      - hilangkan atau sembunyikan gambar `avatar` apabila ukuran layar *user* sudah mencapai `breakpoint=sm` atau lebih kecil
 
@@ -416,3 +420,4 @@ Pada kesempatan kali ini kita akan melanjutkan apa sudah kalian kerjakan pada so
 - Siswa dapat memahami dan menggunakan `state` yang dimiliki oleh TailwindCSS
 - Siswa dapat memahami dan menerapkan konsep `de-emphasizing` pada proses pembuatan sebuah UI
 - Siswa dapat memahami dan menerapkan konsep `focus-point` pada proses pembuatan sebuah UI
+- Siswa dapat memahami dan mampu menerapkan penggunaan dari `character spacing`
