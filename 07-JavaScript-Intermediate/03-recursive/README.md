@@ -69,7 +69,9 @@ searchInArray(arr, 8);
 ### Soal - 04
 Kalian diminta untuk membuat fungsi yang mana nantinya akan mencetak sebuah piramida **alfabet**, fungsi tersebut memiliki spesifikasi sebagai berikut:
 1. fungsi harus ditulis menggunakan `recursive`
-2. memiliki 2 parameter yang identik dengan tipe data `Number`, hal ini kita butuhkan untuk membuat sebuah perulangan menggunakan `recursive`
+2. ia memiliki 2 parameter:
+   - tipe data yang dimiliki keduanya adalah `Number`
+   - nilai dari 2 parameter tersebut dianjurkan sama
 3. bentuk segitiga dapat kalian cetak menggunakan console.log didalam fungsi `trianglePattern`
 4. kalian hanya diperbolehkan untuk membuat `"1 BUAH TRADITIONAL LOOP"`, hal ini untuk mempermudah kalian dalam proses penyelesaian tugas.
 
@@ -78,7 +80,14 @@ Kalian diminta untuk membuat fungsi yang mana nantinya akan mencetak sebuah pira
 ```Javascript
 function trianglePattern( .... ) { .... }
 
-trianglePattern(5, 5);
+const first = 5;
+const second = 3;
+const third = 2;
+
+trianglePattern(first, first);
+trianglePattern(second, second);
+trianglePattern(third, third);
+
 ```
 
 
@@ -100,13 +109,23 @@ trianglePattern(5, 5);
    "angka ditemukan pada index: 0"
    "angka tidak ditemukan"
    ```
-4. Soal - 03
+4. Soal - 04
     ```Javascript
+    // FIRST
     "    A"
     "   BC"
     "  CDE"
     " DEFG"
     "EFGHI"
+    // SECOND
+    "  A"
+    " BC"
+    "CDE"
+    // THRID
+    "   A"
+    "  BC"
+    " CDE"
+    "DEFG"
     ```
 
 ## Key Learning Points

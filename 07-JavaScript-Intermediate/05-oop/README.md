@@ -68,7 +68,8 @@ phone.printSpecification();
 
 ### Soal - 04
 Kamu diminta untuk membuat beberapa `class` dengan spesifikasi sebagai berikut:
-![skilvul](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/OOP-02.png)
+
+![skilvul](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/oop-001.png)
 
 1. `Course`
    - `properties`:
@@ -79,7 +80,11 @@ Kamu diminta untuk membuat beberapa `class` dengan spesifikasi sebagai berikut:
      - `getSubject` [`String`] => mengembalikan nama `course` saat ini
      - `getAttendance` [`Number`] => mengembalikan attenance `course` saat ini
      - `decreaseQuota` [`void`] => mengurangi jumlah quota dengan 1
+   - `childs`:
+     - `CourseOffering`
 2. `CourseOffering`
+   - `parrent`:
+     - `Course` class
    - `properties`:
      - course [`String`] => mata pelajran yang diambil oleh siswa
      - grade [`Number`] => nilai yang diraih oleh siswa
