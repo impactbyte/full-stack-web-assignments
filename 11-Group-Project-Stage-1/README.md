@@ -11,3 +11,5 @@
 - Wajib menggunakan Github dan sistem branch
 - Website harus dipublish ke production dan bisa diakses secara publik
 - Akan mendapatkan nilai tambah jika menggunakan Public API/External API namun tidak wajib
+
+Akses slide <a href="https://www.canva.com/design/DAEstol8630/uU_sIyBeJUSxbw7awGGjGw/view?utm_content=DAEstol8630&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" target="_blank">di sini</a>
