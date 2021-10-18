@@ -1,6 +1,6 @@
 ## Description
 
-> Gunakan _template project_ yang berada pada folder `soal-01`, gunakan _template project_ tersebut untuk menjawab pertanyaan-pertanyaan dibawah. Ada beberapa peraturan yang harus kalian patuhi yaitu:
+> Gunakan _template project_ yang berada pada folder `soal-01`, gunakan _template project_ tersebut untuk menjawab pertanyaan-pertanyaan di bawah. Ada beberapa peraturan yang harus kalian patuhi yaitu:
 >
 > - dilarang untuk mengubah nama dari variable yang ada
 > - dilarang untuk menghapus komentar
@@ -8,13 +8,13 @@
 
 ## Specs
 
-Kalian diminta untuk menyelesaikan pertanyaan-pertanyaan dibawah ini secara benar dan ikuti instruksi yang ada
+Kalian diminta untuk menyelesaikan pertanyaan-pertanyaan di bawah ini secara benar dan ikuti instruksi yang ada
 
 ### Soal - 01
 
 Kamu diminta untuk menampilkan daftar film yang telah disediakan menggunakan ReactJS, berikut adalah langkah-langkah pengerjaannya:
 - gunakan _template project_ `soal-01`
-- *extract component* `card` yang ada didalam elemen dengan `className="col-6"`
+- *extract component* `card` yang ada di dalam elemen dengan `className="col-6"`
   - kedalam file  `src/MovieCard.js`
   - buatlah sebuah `Component` dengan nama `MovieCard`
   - ia akan menerima `1 props` dengan nama `movie`, yang mana `props` tersebut berfungsi untuk menampung informasi `movie` apa yang akan ditampilkan, berikut adalah contoh dari data yang akan kita gunakan
@@ -38,14 +38,14 @@ Kamu diminta untuk menampilkan daftar film yang telah disediakan menggunakan Rea
     - `className="card-title"` ubah isi dari elemen tersebut menggunakan `movie.title`
     - `className="card-subtitle"`
       - ubah isi dari elemen tersebut menggunakan `movie.type`
-      - serta berikondisi dimana:
+      - serta berikondisi di mana:
         - menggunakan background berwarna merah dengan cara menambahkan class `"bg-danger"` apabila `movie.type` berinlai `"TV"`
         - selain itu berilah ia background berwarna hijau dengan cara menambahkan class `"bg-success"`
     - `className="btn btn-primary w-100"` ubah nilai dari attribut `href` menggunakan `movie.url`
 - *rendering* `Card Component` *with* `dummy-data.js`
   - ambil data dari file `src/dummy-data.js` dengan cara `import` file tersebut kedalam `src/App.js`
-  - tampilkan data tersebut didalam elemen dengan `id="daftar-movie"`, untuk menampilkan data tersebut kalian dapat menggunakan `map`
-  - dikarnakan kita melakukan sebuah `loop` didalam elemen dengan `className="row"`, maka kita membutuhkan elemen dengan `class="col"` sebagai wadah penampung dari `Card Component` yang sudah ktia buat. Ada `4 breakpoint` yang perlu kita berikan kepada elemen pembungkus tersebut yaitu:
+  - tampilkan data tersebut di dalam elemen dengan `id="daftar-movie"`, untuk menampilkan data tersebut kalian dapat menggunakan `map`
+  - dikarnakan kita melakukan sebuah `loop` di dalam elemen dengan `className="row"`, maka kita membutuhkan elemen dengan `class="col"` sebagai wadah penampung dari `Card Component` yang sudah ktia buat. Ada `4 breakpoint` yang perlu kita berikan kepada elemen pembungkus tersebut yaitu:
     - akan menampilkan 4 `Card Component` pada `breakpoint` `lg`
     - akan menampilkan 3 `Card Component` pada `breakpoint` `md`
     - akan menampilkan 2 `Card Component` pada `breakpoint` `sm`
