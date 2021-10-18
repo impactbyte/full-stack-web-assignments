@@ -1,6 +1,6 @@
 ## Description
 
-> Gunakan _template project_ yang berada pada folder `soal-01` dan `soal-02`, gunakan _template project_ tersebut untuk menjawab pertanyaan-pertanyaan dibawah. Ada beberapa peraturan yang harus kalian patuhi yaitu:
+> Gunakan _template project_ yang berada pada folder `soal-01`, gunakan _template project_ tersebut untuk menjawab pertanyaan-pertanyaan dibawah. Ada beberapa peraturan yang harus kalian patuhi yaitu:
 >
 > - dilarang untuk mengubah nama dari variable yang ada
 > - dilarang untuk menghapus komentar
@@ -42,17 +42,16 @@ Kamu diminta untuk menampilkan daftar film yang telah disediakan menggunakan Rea
         - menggunakan background berwarna merah dengan cara menambahkan class `"bg-danger"` apabila `movie.type` berinlai `"TV"`
         - selain itu berilah ia background berwarna hijau dengan cara menambahkan class `"bg-success"`
     - `className="btn btn-primary w-100"` ubah nilai dari attribut `href` menggunakan `movie.url`
-- ambil data dari file `src/dummy-data.js` dengan cara `import` file tersebut kedalam `src/App.js`
-  - tampilkan data tersebut didalam elemen dengan `id="daftar-movie"`
-  - untuk menampilkan data tersebut kalian dapat menggunakan `map`
-  - dikarnakan kita melakukan sebuah `loop` didalam elemen dengan `className="row"`, maka kita membutuhkan elemen dengan adanya:
-    - `column 3` apabila ukuran layar pengguna sudah mencapai `breakpoint lg`
-    - `column 4` apabila ukuran layar pengguna sudah mencapai `breakpoint md`
-    - `column 6` apabila ukuran layar pengguna sudah mencapai `breakpoint sm`
-    - `column 12` sebagai default apabila user memiliki layar yang lebih kecil daripada `breakpoint sm`
-  - jangan lupa untuk menambahkan `attribute key` pada elemen tersebut, hal ini bertujuan agar ReactJS dapat membedakan antara satu elemen dengan elemen yang lain
-  - panggil `Component` yang tadi sudah kita buat kedalam file `src/App.js`
-  - tambahakan `Component` tersebut kedalam elemen `column` yang tadi sudah kita buat
+- *rendering* `Card Component` *with* `dummy-data.js`
+  - ambil data dari file `src/dummy-data.js` dengan cara `import` file tersebut kedalam `src/App.js`
+  - tampilkan data tersebut didalam elemen dengan `id="daftar-movie"`, untuk menampilkan data tersebut kalian dapat menggunakan `map`
+  - dikarnakan kita melakukan sebuah `loop` didalam elemen dengan `className="row"`, maka kita membutuhkan elemen dengan `class="col"` sebagai wadah penampung dari `Card Component` yang sudah ktia buat. Ada `4 breakpoint` yang perlu kita berikan kepada elemen pembungkus tersebut yaitu:
+    - akan menampilkan 4 `Card Component` pada `breakpoint` `lg`
+    - akan menampilkan 3 `Card Component` pada `breakpoint` `md`
+    - akan menampilkan 2 `Card Component` pada `breakpoint` `sm`
+    - hanya menampilkan 1 `Card Component` pada `breakpoint` lebih kecil dari `sm`
+  - jangan lupa untuk menambahkan `attribute key` pada elemen tersebut, hal ini bertujuan agar ReactJS dapat membedakan antara satu elemen dengan elemen yang lain (kalian dapat menggunakan `mal_id` sebagai `key`)
+  - panggil `Card Component` yang tadi sudah kita buat kedalam file `src/App.js`, dan tambahakan `Component` tersebut kedalam elemen `column` yang tadi sudah kita buat
 
 
 ### Soal - 02
