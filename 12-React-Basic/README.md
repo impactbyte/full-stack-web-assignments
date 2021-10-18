@@ -16,7 +16,7 @@ Kamu diminta untuk menampilkan daftar film yang telah disediakan menggunakan Rea
 - Lakukan instalasi React.js dari _template project_ yang sudah disediakan pada folder `soal-01` menggunakan `npm install` atau `yarn`
 - Buatlah file `MovieCard.js` pada direktori `src`
 - Buatlah sebuah Component menggunakan `class` dengan nama `MovieCard` 
-- Gunakan kode yang ada pada `App.js` untuk digunakan pada saat membuat component `MovieCard` 
+- Gunakan kode yang ada pada `App.js` untuk digunakan pada saat membuat component `MovieCard` pada class `card`
 - Kemudian hapus kode yang berada di dalam/di bawah class `daftar-anime` pada file `App.js`.
 - Component `MovieCard` akan menerima `1 props` dengan nama `movie`, yang mana `props` tersebut berfungsi untuk menampung informasi `movie` apa yang akan ditampilkan, berikut adalah contoh dari data yang akan kita gunakan:
     ```Javascript

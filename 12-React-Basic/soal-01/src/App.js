@@ -8,7 +8,7 @@ class App extends Component {
         <h1 className="text-center">Anime List</h1>
         <div className="container my-5">
           <div id="daftar-anime" className="row">
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 my-3">
+            <div className="col-6 my-3">
               <div class="card h-100">
                 <img
                   src="https://cdn.myanimelist.net/images/anime/1223/96541.jpg?s=faffcb677a5eacd17bf761edd78bfb3f"
@@ -35,7 +35,7 @@ class App extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 my-3">
+            <div className="col-6 my-3">
               <div class="card h-100">
                 <img
                   src="https://cdn.myanimelist.net/images/anime/1245/116760.jpg?s=8f52d6ff46ef1233eb9fcd542434221c"
