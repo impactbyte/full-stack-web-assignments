@@ -1,6 +1,6 @@
 ## Description
 
-> Gunakan _template project_ yang berada pada folder `soal-01`, gunakan _template project_ tersebut untuk menjawab pertanyaan-pertanyaan di bawah. Ada beberapa peraturan yang harus kalian patuhi yaitu:
+> Gunakan _template project_ yang berada pada folder `soal-01` untuk menjawab pertanyaan-pertanyaan di bawah. Ada beberapa peraturan yang harus kalian patuhi yaitu:
 >
 > - dilarang untuk mengubah nama dari variable yang ada
 > - dilarang untuk menghapus komentar
@@ -8,7 +8,7 @@
 
 ## Specs
 
-Kalian diminta untuk menyelesaikan pertanyaan-pertanyaan di bawah ini secara benar dan ikuti instruksi yang ada
+Kalian diminta untuk menyelesaikan pertanyaan-pertanyaan di bawah ini secara benar dan ikuti instruksi yang ada. Pada 2 soal di bawah ini kita harus menggunakan *Functional Component*.
 
 ### Soal - 01
 
@@ -70,8 +70,8 @@ Berikut adalah langkah-langkah pengerjaannya:
      - `id [Number]` => `id` dari *item* yang akan kita beli
    - *description* => Fungsi ini akan menambahkan *item* ke dalam `cart`.
    - *conditions*
-     - Apabila `cart` kosong atau kita tidak menemukan *item* dengan `id` yang identik di dalam `cart` maka:
-        - **YES** => kita akan menambahkan *item* ke dalam `cart` dengan struktur data sebagai berikut, *default value* dari `amount` adalah `1`
+     - Apabila `cart` kosong atau kita tidak menemukan *item* dengan `id` yang identik di dalam `cart`. Detailnya adalah:
+        - **TRUE** => kita akan menambahkan *item* ke dalam `cart` dengan struktur data sebagai berikut, *default value* dari `amount` adalah `1`
 
           ```Javascript
           {
@@ -82,7 +82,7 @@ Berikut adalah langkah-langkah pengerjaannya:
           }
           ```
 
-        - **NO** => kita akan menambah jumlah dari `amount` menjadi `+1`
+        - **FALSE** => kita akan menambah jumlah dari `amount` menjadi `+1`
 5. Buatlah fungsi `increaseCartAmount` dengan spesifikasi sebagai berikut:
    - *parameter*
      - `id [Number]` => `id` dari *item* yang akan kita beli
@@ -92,9 +92,9 @@ Berikut adalah langkah-langkah pengerjaannya:
      - `id [Number]` => `id` dari *item* yang akan kita beli
    - *description* => Fungsi ini akan menambahkan *item* ke dalam `cart`.
    - *conditions*
-     - Apabila jumlah *item* yang ingin kita beli itu lebih dari 1:
-        - **YES** => Kita akan mengurangi jumlah *item* tersebut dengan `1`
-        - **NO** => kita akan menghapus *item* tersebut dari `cart`
+     - Perlu melakukan pengecekan apakah jumlah *item* yang ingin kita beli itu lebih dari 1:
+        - **TRUE** => Kita akan mengurangi jumlah *item* tersebut dengan `1`
+        - **FALSE** => kita akan menghapus *item* tersebut dari `cart`
 7. Buatlah `useEffect` yang mana ia akan memantau perubahan dari variable `cart`, apabila ada perubahanan pada variable tersebut maka:
    - Kita perlu menghitung total harga dari *item* yang kita masukan ke dalam variable `cart` kemudian memasukan hasilnya ke dalam variable `total`
    - Kita perlu menghitung jumlah *item* yang kita telah masukan ke dalam variable `cart` kemudian masukan hasilnya ke dalam variable `purchasedItem`
