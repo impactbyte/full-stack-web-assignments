@@ -57,8 +57,10 @@ lalu simpan hasilnya ke dalam variable filteredMovies
 ## Expected Result
 1. Soal - 01
 
+  ![skilvul](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/react-router-01.gif)
 2. Soal - 02
 
+  ![skilvul](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/lesson/full-stack-assignment/react-router-02.gif)
 
 ## Key Learning Points
 
