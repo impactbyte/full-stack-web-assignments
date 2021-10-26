@@ -12,24 +12,24 @@ Kalian diminta untuk menyelesaikan pertanyaan-pertanyaan di bawah ini secara ben
 
 ### Soal - 01
 
-Kamu diminta untuk membuat paginasi menggunakan
+Kamu diminta untuk membuat beberapa page menggunakan React.js.
 1. Lakukan instalasi React.js dari _template project_ yang sudah disediakan pada folder `soal-01` menggunakan `npm install` atau `yarn`
 2. Buka file `src/App.js`
    - perbaiki urutan dari `<Route>`, agar tiap-tiap `route` yang tersedia berjalan dengan baik
    - tambahkan `exact` pada tiap-tiap `<Route>`
-3. Buka file `src/pages/Movie.js`, `Component` tersebut merupakan sebuah halaman yang mana akan menampilkan detail dari tiap-tiap `movie`
+3. Buka file `src/pages/Movie.js`, _component_ tersebut merupakan sebuah halaman yang mana akan menampilkan detail dari tiap-tiap `movie`
    - ambil `id` dari `url` saat ini menggunakan fungsi `useParams` yang telah disediakan oleh `react-router-dom`
    - ambil `movie` dimana ia memiliki `mal_id` yang identik dengan `id` yang sebelumnya sudah kita ambil melalui `useParams`
-     - **TRUE**: apabila kita menemukan data tersebut maka kita akan menyimpannya didalam variable `movie`
+     - **TRUE**: apabila kita menemukan data tersebut maka kita akan menyimpannya di dalam variable `movie`
      - **FALSE**: apabila kita tidak menemukan data tersebut maka lakukan `redirect` ke halaman `/not-found`, untuk melakukan `redirect` kamu dapat menggunakan `<Redirect>`
 
 ### Soal - 02
-Pada kesempatan kali ini kita akan melanjutkan apa sudah kalian kerjakan pada soal pertama. Apabila pada soal sebelumnya kita sudah berhasil memperbaiki `<Route>` yang bermasalah serta sudah berhasil membuat sebuah halaman `Detail Movie` yang mana akan menampilkan `detail movie` serta akan melakukan `redirect` apabila data tersebut tidak ditemukan. Maka kali ini kita akan membuat `filter` untuk halaman `Movie List`.
+Pada kesempatan kali ini kita akan melanjutkan apa sudah kalian kerjakan pada soal pertama. Apabila pada soal sebelumnya kita sudah berhasil memperbaiki `<Route>` yang bermasalah serta sudah berhasil membuat sebuah halaman **detail movie** yang mana akan menampilkan **detail movie** serta akan melakukan `redirect` apabila data tersebut tidak ditemukan. Maka kali ini kita akan membuat `filter` untuk halaman **movie list**.
 
 Berikut adalah langkah-langkah pengerjaannya:
 1. `copy and paste` soal yang sebelumnya sudah kamu kerjakan dan ubah namanya menjadi `soal-02`
 2. Lakukan instalasi menggunakan `npm install` atau `yarn`
-3. Buka file `src/components/MovieListFilter.js`, *component* ini berfungsi untuk melakukan filtrasi terhadap daftar film yang akan kita tampilkan pada `src/pages/MovieList.js`
+3. Buka file `src/components/MovieListFilter.js`, *component* ini berfungsi untuk melakukan **filter** terhadap daftar film yang akan kita tampilkan pada `src/pages/MovieList.js`
    - ambil seluruh `query param` menggunakan fungsi `useLocation` yang telah disediakan oleh `react-router-dom`
    - karna `query params` yang telah kita ambil masih dalam bentuk `string` kita perlu merubahnya ke dalam sebuah `object` dengan menggunakan `qs.parse` dimana `qs` itu merupakan sebuah *library* yang dapat membantu kita dalam merubah `query params` menjadi sebuah `object`
    - ubah *default value* pada tiap-tiap `state` yang ada menjadi
