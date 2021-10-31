@@ -1,6 +1,6 @@
 ## Description
 
-> Gunakan _template project_ yang berada pada folder `soal-01` untuk menjawab pertanyaan-pertanyaan di bawah. Ada beberapa peraturan yang harus kalian patuhi yaitu:
+> Gunakan _template project_ yang berada pada respository https://github.com/impactbyte/shopping-cart untuk menjawab pertanyaan-pertanyaan di bawah. Ada beberapa peraturan yang harus kalian patuhi yaitu:
 >
 > - dilarang untuk mengubah nama dari variable yang ada
 > - dilarang untuk menghapus komentar
