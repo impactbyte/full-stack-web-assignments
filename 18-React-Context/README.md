@@ -9,6 +9,7 @@ Gunakan template yang ada pada repository https://github.com/impactbyte/counter-
 
 ## Specs
 **Context**
+
 Kita akan membuat count context pada file `CountContext.js`.
 - Buatlah logic di dalam `countReducer` menggunakan `switch case` untuk menghandle case `increment` dan `decrement`. Untuk `case` default sudah disediakan.
 - Buatlah logic di dalam `CountProvider` yang memiliki props `children`. `CountProvider` digunakan untuk mengirimkan context ke berbagai component yang membutuhkannya. 
