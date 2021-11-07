@@ -15,6 +15,7 @@ Template testing sudah disiapkan di dalam file `Math.test.js`. Yang perlu kamu l
 1. Membuat unit testing untuk method `Add`. Gunakan mathers `toBe()`.
 2. Membuat unit testing untuk method `Substract`. Gunakan mathers `toBe()`.
 3. Membuat unit testing untuk method `Multiplication`. Gunakan mathers `toBe()`.
+
 Gunakan metode *Arrange, Act, dan Assert* pada setiap unit testing.
 
 **`App.js`**
