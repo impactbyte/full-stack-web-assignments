@@ -1,5 +1,5 @@
 ## Description
-Buatlah sebuah aplikasi express untuk aplikasi pencatatan nama nama hewan yang bisa melakukan operasi CRUD dengan menggunakan Middleware.
+Buatlah sebuah aplikasi express untuk aplikasi pencatatan nama nama hewan yang bisa melakukan operasi CRUD(Create Read Update Delete) dengan menggunakan Middleware.
 
 ## Specs
 Kita akan membuat dahulu beberapa route berdasarkan dari method GET, POST, PUT dan DELETE.
