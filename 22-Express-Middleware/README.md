@@ -15,7 +15,7 @@ const hewan = [
   {id: 5, nama: 'Rere', spesies: 'kucing'},
 ]
 ```
-
+### Soal - 01
 Dari Array diatas lakukan operasi berikut
 ### GET '/hewan'
   - Route ini digunakan untuk mengembalikan keselurahan data Array 
@@ -37,13 +37,29 @@ Dari Array diatas lakukan operasi berikut
   - Ketika data sudah berhasil dihapus kirimkan sebuah respond untuk memberitahukan datanya sudah terhapus
 
 ## Middleware
+### Soal - 02
 
 Ketika sudah berhasil membuat semua routes kita akan membuat middleware 
 
 - Middleware Logger
-  - Buatlah sebuah middleware function yang berguna untuk melakukan log yang berisi semua Request yang didapatkan pada endpoint / route tersebut
+  - Buatlah sebuah middleware function yang berguna untuk melakukan `console.log` log untuk mengetahui middleware logger berjalan
   - Aplikasikan Middleware Logger pada seluruh endpoint / route
 
 - Middleware Post Checker
   - Buatlah sebuah middleware function yang bergunaa untuk melakukan checking apakah Form Data yang dikirimkan memiliki 'spesies' kucing, anjing atau kelinci. Jika tidak kembalikan dengan status code 400.
   - Aplikasikan Middleware Post Checker pada '/post' endpoint / route saja
+
+## Expected Result
+1. Soal - 01
+  - Get ALL
+  ![skilvul](./soal1-1.png)
+  - Get by ID
+  ![skilvul](./soal1-2.png)
+  - Post
+  ![skilvul](./soal1-3.png)
+
+2. Soal - 02
+  - Middleware Logger
+  ![skilvul](./soal2-1.png)
+  - Middleware Post Checker
+  ![skilvul](./soal2-2.png)
