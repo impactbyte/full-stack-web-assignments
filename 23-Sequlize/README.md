@@ -48,3 +48,21 @@ Koneksikan aplikasi express kita menggunakan ORM Sequlize hingga berhasil tersam
   
 - DELETE '/hewan'
   - Buatlah sebuah endpoint / route yang berguna untuk menghapus data dari table Hewan menggunakan ORM Sequlize '.destroy()' berdasarkan  ID yang dikirimkan melalui query
+
+
+## Expected Result
+1. Soal - 01
+
+  - ![sequelize connect](./sequelize-connect.png)
+
+2. Soal - 02
+
+  - ![table mysql](./tablemysql.png)
+
+3. Soal - 03
+
+  - ![getall](./getall.png.png)
+  - ![getbyID](./getbyid.png)
+  - ![post](./post.png)
+  - ![put](./put.png)
+  - ![delete](./delete.png)
