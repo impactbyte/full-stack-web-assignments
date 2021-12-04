@@ -134,7 +134,7 @@ You should get the access token as the response:
   ```js
   const accessTokenSecret = 'youraccesstokensecret';
   ```
-- Buatlah function express middleware untuk menghandle proses authorization user yang telah login untuk proses verifikasi token JWT.
+- Buatlah function express middleware dengan nama `authenticateJWT` untuk menghandle proses authorization user yang telah login untuk proses verifikasi token JWT.
 - Gunakan function middleware pada 2 routes yang akan kita buat:
   - GET `/books` => Mengembalikan data seluruh buku (`member` and `admin`)
   - POST `/books` => Menambahkan data buku (only `member`)
