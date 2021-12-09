@@ -7,71 +7,94 @@
 Kalian diminta untuk menyelesaikan pertanyaan-pertanyaan dibawah ini secara benar dan ikuti instruksi yang ada
 
 ### Soal - 01
-Kamu adalah seorang pada kantor dinas pemerintahan, kemudian atasanmu meminta untuk dibuatkan sebuah fungsi dengan spesifikasi sebagai berikut:
-- fungsi tersebut berfungsi untuk memasukan sebuah nilai baru kedalam array
-- apabila panjang array termasuk kedalam bilangan PRIMA, maka kita masukan nilai tersebut diawal baris array
-- apabila panjang array tidak termasuk kedalam bilangan PRIMA dan ia termasuk bilangan GANJIL, maka masukan nilai baru tersebut ke-akhir baris array
-- apabila panjang array tidak termasuk kedalam bilangan PRIMA dan ia termasuk bilangan GENAP, maka masukan nilai baru tersebut ditengah-tengah array
+Kamu diminta untuk membuat sebuah fungsi `reverse` yang mana akan membalik sebuah array, fungsi `reverse` memiliki sepsifikasi sebagai berikut:
+- memiliki 1 parameter yaitu:
+   - arr [Array] => array yang akan kita manipulasi nilainya
+- *return value* [`Number`] berupa sebuah `array` baru yang sudah terbalik
+
+Untuk mempermudah proses pengerjaan kamu dapat menggunakan *code template* dibawah ini
+```Javascript
+const arr = [1, 2, 3];
+const arr2 = [8, 1, 5, 7];
+function reverse( .... ) { .... }
+
+const newArr = reverse(arr);
+const newArr2 = reverse(arr2);
+
+console.log(arr, newArr);
+console.log(arr2, newArr2);
+```
+
+### Soal - 02
+Kamu diminta untuk membuat sebuah fungsi yang akan mengembalikan total berapa elemen bilangan/number yang melebihi nilai rata-rata dari sebuah array, fungsi tersebut memiliki spesifikasi sebagai berikut:
+
+- memiliki 1 parameter:
+  - arr [`Array of Number`] => array 1 dimensi dengan nilai `Number`
+- *return value* [`Number`] total angka yang melebihi nilai rata-rata
 
 Untuk mempermudah proses pengerjaan kamu dapat menggunakan *code template* dibawah ini
 
 ```Javascript
-let arr = [0, 1];
+const arr1 = [1, 3, 4, 1, 2, 8];
+const arr2 = [5, 6, 7, 8, 1, 3];
 
-function addNewValueToArray(value) {
-  // EDIT HERE
-}
+function getAverage( .... ) { .... }
 
-for (let i = 2; i < 11; i++) {
-  addNewValueToArray(i);
-}
-
-console.log(arr);
+console.log(getAverage(arr1))
+console.log(getAverage(arr2))
 ```
 
-### Soal - 02
-Kamu adalah seorang trader pemula, dan karna memiliki background IT kamu ingin membuat sebuah fungsi `calculateIncome` untuk mendapatkan nilai dari keuntungan yang dapat kita peroleh dengan rumus (*current price* - *previous price*) untuk setiap koin yang tersedia
 
-- Gunakan *code template* yand diberikan untuk menyelesaikan masalah
-- Dilarang untuk mengubah nama `variable` atau `function` yang sudah tersedia didalam *code template*
-- Segala perubahan hanya dapat dilakukan didalamm fungsi `calculateIncome`
-- Hasil haruslah sesuai dengan expektasi yang diberikan
+### Soal - 03
+Kamu diminta untuk membuat sebuah fungsi yang mana akan mencari sebuah elemen didalam `array` multi dimensi, fungsi tersebut memiliki spesifikasi sebagai berikut:
+- memiliki 2 parameter:
+  - arr [`Array`] => array multi dimensi yang akan kita proses
+  - num [`Number`] => angka yang ingin kita cari
+- *return value* [`Number`]
+  - fungsi akan mengembalikan `null` apabila angka yang dicari tidak ditemukan
+  - fungsi akan mengembalikan `index` dari angka yang dicari
 
-Untuk mempermudah proses pengerjaan kamu dapat menggunakan *code template* dibawah ini
+Langkah-langkah pengerjaan:
+- karna fungsi tersebut menerima sebuah array multi dimensi maka kita perlu merubahnya kedalam 1 dimensi terlebih dahulu
+- setelah array 1 dimensi terbentuk, maka kita bisa mencari nilai yang ingin dicari oleh user
+- apabila kita tidak menemukan nilai tersebut maka kembalikan `null`
+- dan apabila kita menemukan nilai tersebut, maka kita akan mengembalikan index dari nilai tersebut (index dalam bentuk 1 dimensi bukan multi dimensi)
 
-```JS
-const items = [
-  [ { name: "btc", price: 10 }, { name: "eth", price: 7 }, { name: "doge", price: 5 } ],
-  [ { name: "btc", price: 9.2 }, { name: "eth", price: 7.3 }, { name: "doge", price: 5.8 } ],
-  [ { name: "btc", price: 8.7 }, { name: "eth", price: 8.1 }, { name: "doge", price: 6.3 } ],
-  [ { name: "btc", price: 8.4 }, { name: "eth", price: 8 }, { name: "doge", price: 6.7 } ],
-  [ { name: "btc", price: 8.9 }, { name: "eth", price: 6.3 }, { name: "doge", price: 5.9 } ],
-  [ { name: "btc", price: 9.3 }, { name: "eth", price: 5.6 }, { name: "doge", price: 5.1 } ],
+```Javascript
+const arr = [
+  [10],
+  [9, 7, 1],
+  [2, 8],
 ];
 
-const calculateIncome = (items) => {
-  /// EDIT DOWN HERE
-}
+function searchInArray( .... ) { .... }
 
-console.log(calculateIncome(items))
+console.log(searchInArray(arr, 3));
+console.log(searchInArray(arr, 2));
+console.log(searchInArray(arr, 4));
+console.log(searchInArray(arr, 8));
 ```
-
-
 ## Expected Result
 1. Soal - 01
-    ```JSON
-    {
-      btc: -0.6999999999999993,
-      doge: 0.09999999999999964,
-      eth: -1.4000000000000004
-    }
+    ```Javascript
+    [1, 2, 3], [3, 2, 1]
+    [8, 1, 5, 7], [7, 5, 1, 8]
     ```
 2. Soal - 02
     ```Javascript
-    [7, 5, 3, 2, 8, 10, 6, 4, 0, 1, 9]
+    2 // Ada 2 bilangan yang melebihi nilai rata-rata yaitu 4 & 8
+    3 // Ada 3 bilangan yang melebihi nilai rata-rata yaitu 6, 7, dan 8
+    ```
+3. Soal - 03
+    ```Javascript
+    null
+    4
+    null
+    5
     ```
 
 ## Key Learning Points
 - Peserta memahami apa itu `array` dan cara penggunaannya
+- Peserta memahami cara penggunaan *built-in function* dari `array`
 - Peserta mampu melakukan analisa terhadap masalah yang ada
 - Peserta mampu untuk membuat solusi untuk perhitungan menggunakan `array`
