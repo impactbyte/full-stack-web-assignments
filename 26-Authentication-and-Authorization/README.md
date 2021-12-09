@@ -4,7 +4,7 @@ Buatlah proses authentication menggunakan session based (cookie) dan token based
 ## Specs
 ### Tugas 1 - Session Based Authentication
 - Buat project Node.js menggunakan `npm init-y`
-- Instal beberapa oackage yang dibutuhkan
+- Instal beberapa package yang dibutuhkan
   - Express - a web framework for Node.js used to create HTTP web servers. Express provides an easy-to-use API to interact with the webserver.
   - Express-session - an HTTP server-side framework used to create and manage a session middleware. This tutorial is all about sessions. Thus Express-session library will be the main focus.
   - Cookie-parser - used to parse cookie header to store data on the browser whenever a session is established on the server-side.
@@ -18,8 +18,8 @@ Buatlah proses authentication menggunakan session based (cookie) dan token based
   - `resave`
 - Set cookie sebesar 1 menit
 - Kita akan menggunakan view secara langsung dari `express`. Buatlah folder `views` pada root aplikasi kita. Pada folder tersebut kita akan membuat file `index.html` dan `app.css`. Gunakan template yang sudah tersedia. Kita akan menampilkan form login untuk menjalankan proses authentication.
-- Buatlah proses parse HTML Form pada `express` setiap ada request login pada HTML menggunakan `.json(), .urlencoded, dan .static()`
-- Define cookie parses middleware agar server dapat menyimpan, membaca, dan mengakses cookie
+- Buatlah proses parser HTML Form pada `express` setiap ada request login pada HTML menggunakan `.json(), .urlencoded, dan .static()`
+- Define cookie parser middleware agar server dapat menyimpan, membaca, dan mengakses cookie
 - Gunakan dummy data untuk credential dan variabel untuk menyimpan data session yaitu
   ```js
   const myusername = 'user1'
