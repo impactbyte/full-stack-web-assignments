@@ -17,7 +17,7 @@ Data yang dibutuhkan adalah:
 3. Buatlah skema untuk kebutuhan data dari suatu Products yang akan mempunyai banyak varian dari aplikasi *SkilShop*. Jelasskan juga relasi apakah yang tepat untuk data tersebut?
 Contoh data yang dibutuhkan adalah:
 
-- **Product**
+**Product**
 
 Product Name: Kaos Polos
 
@@ -33,7 +33,7 @@ Quantity: 12
 
 Price: Rp 99.000
 
-- **Varian Kedua**
+**Varian Kedua**
 
 Varian Name 1: Kaos Polos Navy
 
