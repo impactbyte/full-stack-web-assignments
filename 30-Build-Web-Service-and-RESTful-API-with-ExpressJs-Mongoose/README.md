@@ -99,3 +99,26 @@ Buatlah Router dan Controller untuk menghandle proses CRUD pada tiap-tiap collec
 ## Soal - 04
 
 Setelah Application kamu jadi, saatnya untuk deploy ke online dan membuat dokumentasi. Silahkan deploy aplikasi kamu ke [Heroku](https://www.heroku.com/) dan buatlah juga [Postman online documentation](https://www.postman.com/api-documentation-tool/). Pastikan aplikasi kamu sudah sesuai dengan requirement dan pastikan juga validation pada mongoose berjalan dengan baik.
+
+------
+
+## Expected Results
+
+Berikut adalah beberapa expected results (hanya sebagian contoh) :
+
+- Endpoint Instructor
+
+  - Ketika Create Instructor
+    ![result1](assets/images/1.png)
+  
+  - Ketika Get All Instructor
+    ![result2](assets/images/2.png)
+    
+  - Ketika Get Instructor Detail By Id
+    ![result3](assets/images/3.png)
+    
+  - Ketika Edit Instructor
+    ![result4](assets/images/4.png)
+    
+  - Ketika Delete Instructor
+    ![result5](assets/images/5.png)
