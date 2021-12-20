@@ -22,6 +22,7 @@ Pada project kali ini, kamu akan diminta membuat beberapa endpoint RESTful API y
 Diberikan requirement untuk tiap-tiap collection sebagai berikut :
 
 - **<u>Instructors Collection</u>**
+
   Collection ini berisikan informasi mengenai instruktur pada suatu kelas. Informasi yang akan disimpan dalam collection ini berupa **name, dateOfBirth, location**.
 
   | Key         | Data Type | Note                                           |
@@ -33,6 +34,7 @@ Diberikan requirement untuk tiap-tiap collection sebagai berikut :
   
 
 - **<u>Courses Collection</u>**
+
   Collection ini berisikan informasi mengenai course, informasi yang akan disimpan dalam collection ini berupa **title, description, instructor, scheduleDateTime**
 
   | Key              | Data Type              | Note                                          |
