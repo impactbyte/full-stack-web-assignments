@@ -6,18 +6,18 @@ const routes = [
   {
     name: 'home',
     path: '/',
-    component: Home,
+    element: Home,
   },
 
   {
     name: 'movie list',
     path: '/movies',
-    component: MovieList,
+    element: MovieList,
   },
   {
     name: 'detail movie',
     path: '/movies/:id',
-    component: Movie,
+    element: Movie,
     isHidden: true,
   },
 ];
