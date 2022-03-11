@@ -67,14 +67,17 @@ Berikut adalah langkah-langkah pengerjaannya:
   - `movieList['Array of Object']` => variable ini akan menampung seluruh daftar film yang nantinya akan kita tampilkan
   - `isLoading['Boolean']` => variable ini akan menjadi indikator kita apakah data yang kita ambil melalui public API tersebut sudah berhasil atau tidak
 - buatlah sebuah fungsi dengan nama `fetchMovieList`
+
   - fungsi tersebut akan mengambil daftar film melalui link berikut
 
     `"https://api.jikan.moe/v3/top/anime"`
 
   - setelah data kita dapatkan, maka kita akan memasukan data tersebut kedalam state `movieList`
+
 - `lifecycle`
   - `useEffect` => panggil fungsi `fetchMovieList` dan cek apakah ada perubahan pada state `movieList`, apabila kita sudah berhasil mengambil data dari public API dan berhasil memasukan data tersebut kedalam state `movieList` maka kita perlu untuk merubah nilai state `isLoading` menjadi `true`
 - `render`
+
   - buatlah sebuah kondisi menggunakan state `isLoading`
 
     - apabila ia bernilai `false`, maka kita akan menampilkan daftar movie yang sudah kita buat pada soal sebelumnya
@@ -99,5 +102,4 @@ Berikut adalah langkah-langkah pengerjaannya:
 - Peserta mampu membuat sebuah ReactJs `functional component based`
 - Peserta mampu untuk mengambil data dari public API
 - Peserta mampu melakukan ekstrasi terhadap sebuah UI menjadi `Component` yang lebih kecil
-- Peserta memahami dan mampu melakukan implementasi dari _lifecycle_ `componentDidMount`
-- Peserta memahami dan mampu melakukan implementasi dari _lifecycle_ `componentDidUpdate`
+- Peserta memahami dan mampu melakukan implementasi dari _lifecycle_ `componentDidMount` dan `componentDidUpdate` menggunakan `useEffect`
