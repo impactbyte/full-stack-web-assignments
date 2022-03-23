@@ -15,7 +15,7 @@
 Pastikan aplikasi yang kamu buat membantu **menyelesaikan masalah yang ada (problem solving) atau memberikan gamification** dari beberapa tema di atas.
 
 ## Timeline
-3 November 2021 - 17 November 2021
+23 Maret 2022 - 14 April 2022
 
 ## Specs
 - Setiap group harus membuat BRD
@@ -34,7 +34,7 @@ Pastikan aplikasi yang kamu buat membantu **menyelesaikan masalah yang ada (prob
 - Aplikasi harus menggunakan salah satu State Management (pilih **redux** atau **react context**). **Direkomendasikan** menggunakan React Context dan useReducer.
 - Aplikasi harus menggunakan **API** baik dari External ataupun Fake API yang dibuat sendiri untuk digunakan pada aplikasi front-end
 - Setiap UI yang akan digunakan pada page lain, wajib di jadikan component
-- Harus membuat minimal **3 halaman**
+- Harus membuat minimal **4 halaman**
 - Wajib membuat **component**
 - Fitur yang dibuat harus end-to-end tidak boleh terputus (Misalnya website pembelian produk berarti harus sampai proses pembelian berhasil)
 - Website harus interaktif dan memiliki logic didalamnya menggunakan JavaScript
