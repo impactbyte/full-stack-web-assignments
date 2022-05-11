@@ -1,21 +1,22 @@
-## SPECS
+## Guides
 
-Kamu adalah seorang programmer yang bekerja pada suatu start-up terkini, kemudian kamu diminta untuk menyusun folder dan files sebagai bentuk dokumentasi dari berkas-berkas yang kamu miliki. Kamu diminta untuk
-
-> Soal dapat dikerjakan menggunakan notepad atau aplikasi plaintext editor lainnya, dokumentasikan tiap-tiap langkah yang anda gunakan untuk menyelesaikan soal-soal tersebut. Contoh pengerjaan soal:
+> Soal dapat dikerjakan menggunakan notepad, aplikasi plaintext editor, atau visual studio code. Dokumentasikan tiap-tiap langkah yang anda gunakan untuk menyelesaikan soal-soal tersebut. Contoh pengerjaan soal:
 
 ```
 1. mkdir fikri
 2. cd fikri
 ```
 
-> Tugas bisa diupload ke `google drive` masing-masing, serta jangan lupa untuk mengumpulkan-nya pada `google form`
+> Tugas dikumpulkan dalam bentuk GitHub Repository ke `google form` yang disediakan
+
+## Specs
+Kamu adalah seorang programmer yang bekerja pada suatu start-up terkini, kemudian kamu diminta untuk menyusun folder dan files sebagai bentuk dokumentasi dari berkas-berkas yang kamu miliki. Kamu diminta untuk
 
 1. membuat sebuah folder kosong dengan nama-mu sendiri
 2. didalam *folder* tersebut buatlah
     - *folder* `sekolah`
     - *folder* `kerja`
-3. masuk kedalam folder `sekolah`
+3. masuk ke dalam folder `sekolah`
     - buat *file* dengan nama `ijazah.txt`, yang mana file tersebut akan memiliki teks seperti:
 
         ```jsx
@@ -57,7 +58,7 @@ Kamu adalah seorang programmer yang bekerja pada suatu start-up terkini, kemudia
         - $NAMA ⇒ diganti dengan namamu sendiri
         - $HOBBY ⇒ diganti dengan hobi-mu sendiri
     - tampilkan isi dari *file* tersebut menggunakan `CLI command`
-6. Pada tahap ini kamu lupa jika sebenarnya *file* `portfolio.txt` serahusnya tidak berada pada *folder* `sekolah`, jadi kamu harus memindahkannya kedalam folder `kerja`
+6. Pada tahap ini kamu lupa jika sebenarnya *file* `portfolio.txt` serahusnya tidak berada pada *folder* `sekolah`, jadi kamu harus **memindahkannya** ke dalam folder `kerja`
 
 ## KEY LEARNING POINTS
 
