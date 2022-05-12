@@ -1,7 +1,7 @@
 ## Description
-> Mohon simulasikan perintah dibawah menggunakan perintah command dari terminal. Semua nomor dibawah ini harus dijalankan menggunakan command pada CLI
+> Mohon simulasikan perintah di bawah menggunakan perintah command dari terminal. Semua nomor di bawah ini harus dijalankan menggunakan command pada CLI
 
-> Kamu dapat membuat file the-basics.md atau the-basics.txt lalu didalamnya tuliskan jawaban sesuai nomor perintah pada soal.
+> Kamu dapat membuat file the-basics.md atau the-basics.txt lalu di dalamnya tuliskan jawaban sesuai nomor perintah pada soal.
 
 Contoh:
 1. Create a folder called `git-basic`. **mkdir git-basic**
