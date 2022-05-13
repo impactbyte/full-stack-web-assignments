@@ -12,7 +12,7 @@ Instructor akan menilai dari beberapa komponen:
 2. Mampu mempresentasikan materi dengan jelas dan mudah dipahami
 
 ## Cara Pengerjaan
-Mohon mengerjakan tugas ini menggunakan format **Markdown** (`README.md`) pada sebuah repository GitHub untuk setiap lesson.
+Mohon mengerjakan tugas ini menggunakan format **Markdown** (`README.md`) pada sebuah repository GitHub untuk setiap lesson. Cek contoh pada link [berikut](https://github.com/impactbyte/full-stack-web-assignments/blob/master/00-Writing-and-Presentation-Test/example.md).
 
 Kumpulkan repository tersebut kepada Instructor.
 
