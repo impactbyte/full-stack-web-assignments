@@ -41,3 +41,5 @@ Framework disini maksudnya adalah Next.js yang melakukan konfigurasi yang dibutu
 ![Next](https://nextjs.org/static/images/learn/foundations/next-app.png)
 
 Karena berbasis React, maka kita akan tetap menggunakan React untuk membuat UI dan menggunakan Next.js untuk fitur tambahan penting yang akan sering kita butuhkan seperti routing, data fetching, dan sebagainya. Kita dapat memangkas waktu dan fokus pada delivery aplikasi yang kita buat.
+
+**Copyright by David Winalda - 2022**

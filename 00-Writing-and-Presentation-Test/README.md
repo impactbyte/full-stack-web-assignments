@@ -17,5 +17,3 @@ Mohon mengerjakan tugas ini menggunakan format **Markdown** (`README.md`) pada s
 Kumpulkan repository tersebut kepada Instructor.
 
 Pada hari Jumat setiap minggunya, kamu diminta untuk mempresentasikannya. Slide tidak wajib.
-
-**Copyright by David Winalda - 2022**
