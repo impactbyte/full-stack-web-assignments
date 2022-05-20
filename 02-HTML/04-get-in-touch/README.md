@@ -1,11 +1,13 @@
-
-## Specs
-> Untuk kemudahan dalam menjawab soal, kamu dapat memilih untuk menggunakan salah satu dari ketiga platform dibawah:
+> Untuk kemudahan dalam menjawab soal, kamu dapat memilih untuk menggunakan salah satu dari beberapa kode editor di bawah:
+>
+> Online code editor:
 > - [skilvul playground](https://skilvul.com/paths/coding-di-skilvul-playground)
 > - [repl](https://replit.com/)
 > - [stackblitz](https://stackblitz.com/)
-
-> Pengumpulan tugas dapat dilakukan dengan cara membagikan link pengerjaan tugas didalam `google form`
+>
+> Offline code editor:
+> - [Visual Studio Code](https://code.visualstudio.com/)
+## Specs
 
 1. membuat jarak dengan elemen terakhir menggunakan tag `br` sebanyak 2 kali
 2. membuat judul dengan isi `Get in Touch` menggunakan tag `h1`

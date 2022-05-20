@@ -1,10 +1,14 @@
-## Specs
-> Untuk kemudahan dalam menjawab soal, kamu dapat memilih untuk menggunakan salah satu dari ketiga platform dibawah:
+> Untuk kemudahan dalam menjawab soal, kamu dapat memilih untuk menggunakan salah satu dari beberapa kode editor di bawah:
+>
+> Online code editor:
 > - [skilvul playground](https://skilvul.com/paths/coding-di-skilvul-playground)
 > - [repl](https://replit.com/)
 > - [stackblitz](https://stackblitz.com/)
+>
+> Offline code editor:
+> - [Visual Studio Code](https://code.visualstudio.com/)
 
-> Pengumpulan tugas dapat dilakukan dengan cara membagikan link pengerjaan tugas didalam `google form`
+## Specs
 
 1. membuat jarak menggunakan tag `br` sebanyak 2x setelah elemen terakhir
 2. membuat judul berupa `Film Favoritku` menggunakan tag `h1`

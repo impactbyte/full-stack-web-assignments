@@ -1,19 +1,20 @@
-## Specs
-> Untuk kemudahan dalam menjawab soal, kamu dapat memilih untuk menggunakan salah satu dari ketiga platform dibawah:
+> Untuk kemudahan dalam menjawab soal, kamu dapat memilih untuk menggunakan salah satu dari beberapa kode editor di bawah:
+>
+> Online code editor:
 > - [skilvul playground](https://skilvul.com/paths/coding-di-skilvul-playground)
 > - [repl](https://replit.com/)
 > - [stackblitz](https://stackblitz.com/)
-
-> Pengumpulan tugas dapat dilakukan dengan cara membagikan link pengerjaan tugas didalam `google form`
-
-
+>
+> Offline code editor:
+> - [Visual Studio Code](https://code.visualstudio.com/)
+## Specs
 1. buat jarak menggunakan tag `br` sebanyak 2 kali tepat dibawah tag `a`
 2. buatlah judul dengan nama `profilku` menggunakan tag `h1`
-3. masukan foto anda menggunakan elemen `img` dan pastikan atribut
+3. masukan foto anda menggunakan elemen `img` dan gunakan attribute
     - `width` ⇒ 200px
     - `height` ⇒ 200px
     - `alt` ⇒ fotoku
-4. dari website yang sudah anda buat, sekarang tambahkan informasi anda kedalamnya menggunakan list yang mana akan menampilkan informasi dibawah
+4. dari website yang sudah anda buat, sekarang tambahkan informasi anda ke dalamnya menggunakan list yang mana akan menampilkan informasi di bawah
     - `nama: VALUE`
     - `email: VALUE`
     - `daerah: VALUE`
