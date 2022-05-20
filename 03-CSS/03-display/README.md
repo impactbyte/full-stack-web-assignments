@@ -1,24 +1,28 @@
-## Specs
-> Untuk kemudahan dalam menjawab soal, kamu dapat memilih untuk menggunakan salah satu dari ketiga platform dibawah:
+> Untuk kemudahan dalam menjawab soal, kamu dapat memilih untuk menggunakan salah satu dari beberapa kode editor di bawah:
+>
+> Online code editor:
 > - [skilvul playground](https://skilvul.com/paths/coding-di-skilvul-playground)
 > - [repl](https://replit.com/)
 > - [stackblitz](https://stackblitz.com/)
+>
+> Offline code editor:
+> - [Visual Studio Code](https://code.visualstudio.com/)
+
+## Specs
 > - Buatlah 1 file dengan nama `display.html` sebagai tempat membuat strkutur html
 > - Buatlah 1 file dengan nama `display.css` sebagai tempat untuk melakukan styling
 
-> Pengumpulan tugas dapat dilakukan dengan cara membagikan link pengerjaan tugas didalam `google form`
+Buatlah baris kode di bawah sehingga ia akan membuat tampilan seperti pada expected result, dengan cara:
 
-Buatlah baris kode dibawah sehingga ia akan membuat tampilan seperti ini, dengan cara:
-
-- elemen `nav`
+- buatlah sebuah elemen `nav`
     - berikan background `lightbluesky`
-    - ubah display dari elemen `a` agar kita mendapatkan padding atas dan bawah yang dimiliki oleh elemen `a`
-- tiap elemen `a` didalam `nav`
+- buatlah list navigasi menggunakan elemen `a` di dalam `nav`
+    - ubah display dari elemen `a` agar kita mendapatkan padding atas dan bawah yang dimiliki oleh elemen `a` dan tersusun secara horizontal
     - ubah font menjadi `sans-serif`
-    - ubah tebal font menjadi `400`
+    - ubah ketebalan font menjadi `400`
     - ubah warna font menjadi hitam
-    - ubah text yang ditampilan menjadi huruf besar semua
-    - hilangkan default style yang dimiliki oleh elemen `a`
+    - ubah semua text yang ditampilkan menjadi huruf besar
+    - hilangkan default style underline dan margin yang dimiliki oleh elemen `a`
     - berikan padding atas dan bawah `10px` untuk kanan kiri sebesar `15px`
     - apabila mendapatkan event hover ia akan memiliki background `gainsboro`
 
