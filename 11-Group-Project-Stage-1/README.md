@@ -1,6 +1,23 @@
 ### Buatlah aplikasi web yang menarik dan kreatif menggunakan JavaScript secara berkelompok.
 
+## Theme
+
+Kamu diminta untuk membantu **Terra** membuat website penjualan Sayur dan Buah-buahan agar Terra dapat membantu calon konsumennya membeli Sayur dan Buah dengan mudah.
+
+Minimum fitur yang harus ada pada website adalah:
+
+- User dapat melakukan **registrasi** dan **login**
+- User dapat **memilih** produk sayur atau buah-buahan
+- User dapat melakukan **Preview** pesanan pada halaman **Checkout**
+- User dapat memilih metode pembayaran atau diinformasikan harus membayar melalui apa.
+- User dapat **memesan** pesanannya melalui halaman **checkout**
+- User **mendapatkan info** pembelian produk berhasil atau gagal
+- Data **disimpan** ke dalam Mock API dan Local Storage
+
 ## Specs
+
+- Harus membuat BRD menggunakan Whimsical
+- Harus membuat Wireframe menggunakan Whimsical
 - Web app dibuat menggunakan `HTML`, `CSS`, dan `JavaScript`
 - Boleh menggunakan Bootstrap atau Tailwind
 - Tidak boleh menggunakan framework JavaScript seperti React atau Vue. Harus menggunakan native JavaScript
