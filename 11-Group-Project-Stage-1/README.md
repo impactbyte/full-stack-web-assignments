@@ -19,11 +19,11 @@ Minimum fitur yang harus ada pada website adalah:
 - Harus membuat BRD menggunakan Whimsical
 - Harus membuat Wireframe menggunakan Whimsical
 - Web app dibuat menggunakan `HTML`, `CSS`, dan `JavaScript`
-- Boleh menggunakan Bootstrap atau Tailwind
+- Boleh menggunakan Bootstrap
 - Tidak boleh menggunakan framework JavaScript seperti React atau Vue. Harus menggunakan native JavaScript
 - Minimum 3 page
 - Fitur yang dibuat harus end-to-end tidak boleh terputus (Misalnya website pembelian produk berarti harus sampai proses pembelian berhasil)
-- Website harus interaktif dan memiliki logic didalamnya menggunakan JavaScript
+- Website harus interaktif dan memiliki logic didalamnya menggunakan JavaScript (Contoh: validasi form)
 - Website sudah harus mobile responsive
 - Wajib menggunakan Github dan sistem branch
 - Website harus dipublish ke production dan bisa diakses secara publik
