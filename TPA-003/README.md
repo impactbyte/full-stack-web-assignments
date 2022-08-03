@@ -9,6 +9,8 @@
 3. Tampilkan list movie (judul, tanggal rilis, dan rating) dengan kategori terpopuler menggunakan endpoint berikut `/discover/movie?api_key=your_api_key&sort_by=popularity.desc`. Kamu dapat melihat lebih lengkap melalui halaman [documentation](https://developers.themoviedb.org/3/discover/movie-discover)
 4. Untuk membatasi list movie yang akan ditampilkan kita akan menggunakan query string `page` yang disediakan pada [documentation](https://developers.themoviedb.org/3/discover/movie-discover), sehingga endpoint yang digunakan menjadi `/discover/movie?api_key=your_api_key&sort_by=popularity.desc&page=1`
 5. Untuk fitur search gunakan endpoint berikut ini `/search/movie?api_key=your_api_key&query=${search_key}&page=1` atau sesuai yang ada pada [documentation](https://developers.themoviedb.org/3/search/search-movies)
+6. Tampilah website harus sudah responsive
+7. Peserta diperbolehkan menggunakan Bootstrap
 
 ### Expected Result
 
@@ -27,5 +29,6 @@ Penilaian akan dilakukan dari beberapa hal:
 2. Logic yang sesuai dengan kebutuhan pada aplikasi
 3. Tampilan dan output sesuai dengan **Expected Result**
 4. Kemampuan peserta menggunakan Git & GitHub
-5. Kemampuan peserta melakukan integrasi API
-6. Kemampuan peserta dalam mendeploy aplikasi website
+5. Website sudah responsive
+6. Kemampuan peserta melakukan integrasi API
+7. Kemampuan peserta dalam mendeploy aplikasi website
