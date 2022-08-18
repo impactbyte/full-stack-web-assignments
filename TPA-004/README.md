@@ -4,7 +4,7 @@
 
 ### Specs
 
-- Buatlah website personal seperti yang telah kamu buat pada [https://github.com/impactbyte/full-stack-web-assignments/tree/master/TPA-001](TPA-001) menggunakan **React.js** dan **React Router 6**
+- Buatlah website personal seperti yang telah kamu buat pada https://github.com/impactbyte/full-stack-web-assignments/tree/master/TPA-001 menggunakan **React.js** dan **React Router 6**
 - Wajib menggunakan **functional component**
 - Wajib menggunakan **react hooks**
 - Ubahlah beberapa layout atau tampilan menjadi component. Setiap UI yang akan digunakan pada page lain, wajib dijadikan component. Jika tidak ada, buatlah beberapa UI Component yang digunakan di beberapa halaman.
