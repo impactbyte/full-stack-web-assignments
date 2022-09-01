@@ -14,9 +14,6 @@
 
 Pastikan aplikasi yang kamu buat membantu **menyelesaikan masalah yang ada (problem solving) atau memberikan gamification** dari beberapa tema di atas.
 
-## Timeline
-23 Maret 2022 - 14 April 2022
-
 ## Specs
 - Setiap group harus membuat BRD
 - Setiap group harus membuat Wireframe
@@ -32,7 +29,7 @@ Pastikan aplikasi yang kamu buat membantu **menyelesaikan masalah yang ada (prob
 - Aplikasi harus menggunakan library **React.js**
 - Wajib menggunakan **functional component**
 - Wajib menggunakan **React Hooks**
-- Aplikasi harus menggunakan salah satu State Management (pilih **redux** atau **react context**). **Direkomendasikan** menggunakan React Context dan useReducer.
+- Aplikasi harus menggunakan salah satu State Management (pilih **redux** atau **react context**).
 - Aplikasi harus menggunakan **API** baik dari External ataupun Fake API yang dibuat sendiri untuk digunakan pada aplikasi front-end
 - Setiap UI yang akan digunakan pada page lain, wajib di jadikan component
 - Harus membuat minimal **4 halaman**
