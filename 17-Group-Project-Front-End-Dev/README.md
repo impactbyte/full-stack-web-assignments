@@ -43,6 +43,25 @@ Pastikan aplikasi yang kamu buat membantu **menyelesaikan masalah yang ada (prob
 - Publish source code yang telah dibuat pada Repository GitHub
 - Deploy aplikasi website menggunakan [Netlify](https://netlify.com) atau [Vercel](https://vercel.com) dan integrasikan dengan Repository GitHub
 - Pastikan Repository GitHub dan Link Website dapat diakses secara publik
+
+## Penilaian
+
+Penilaian akan dilakukan dari beberapa hal:
+
+1. Self contribution dan Teamwork
+2. BRD dan Wireframe
+3. Presentation
+4. Kode React.js yang terorganisasi dengan baik
+5. Pemahaman dan implementasi component
+6. Pemahaman dan penggunaan terhadap functional component, props & state, styling pada react, react hooks, dan proptypes.
+7. Pemahaman dan penggunaan React Router 6
+8. Pemahaman dan penggunaan State Management
+9. Website sudah responsive
+10. Jumlah halaman website yang sesuai
+11. Konten yang sesuai dengan setiap peserta. Tidak boleh menggunakan konten dummy.
+12. Kemampuan peserta menggunakan Git & GitHub
+13. Kemampuan peserta dalam mendeploy aplikasi website
+
 ---
 Contoh list external API yang dapat digunakan:
 - [Public API](https://public-apis.io/)
