@@ -30,6 +30,7 @@ Pastikan aplikasi yang kamu buat membantu **menyelesaikan masalah yang ada (prob
 - Setiap group wajib melakukan recording menggunakan Zoom dan diupload ke YouTube untuk mempresentasikan hasil karya aplikasinya
 ------
 - Aplikasi harus menggunakan library **React.js**
+- Wajib menggunakan **functional component**
 - Wajib menggunakan **React Hooks**
 - Aplikasi harus menggunakan salah satu State Management (pilih **redux** atau **react context**). **Direkomendasikan** menggunakan React Context dan useReducer.
 - Aplikasi harus menggunakan **API** baik dari External ataupun Fake API yang dibuat sendiri untuk digunakan pada aplikasi front-end
@@ -41,7 +42,10 @@ Pastikan aplikasi yang kamu buat membantu **menyelesaikan masalah yang ada (prob
 - Component yang dibuat harus bervariasi dan salah satu/lebih harus memiliki props
 - Harus membuat section Layout sebagai component
 - Wajib sudah mendukung tampilan responsive
-- Deploy aplikasi menggunakan [Netlify](https://netlify.com) atau [Vercel](https://vercel.com)
+- Konten dan desain bersifat fleksibel mengikuti kreatifitas dan kebutuhan peserta
+- Publish source code yang telah dibuat pada Repository GitHub
+- Deploy aplikasi website menggunakan [Netlify](https://netlify.com) atau [Vercel](https://vercel.com) dan integrasikan dengan Repository GitHub
+- Pastikan Repository GitHub dan Link Website dapat diakses secara publik
 ---
 Contoh list external API yang dapat digunakan:
 - [Public API](https://public-apis.io/)
