@@ -53,6 +53,4 @@ Video: https://www.youtube.com/watch?v=3JLPm3pm5vI
 
 ## Submission
 
-Jika telah menyelesaikan tugas ini, silahkan kumpulkan melalui form berikut [ini](https://forms.gle/BTQBkC1gocL4Bbsf8).
-
-Pada hari Senin setiap minggunya, kamu diminta untuk mempresentasikan module yang telah dipelajari minggu sebelumnya.
+Jika telah menyelesaikan summary untuk setiap minggunya, silahkan kumpulkan melalui form berikut [ini](https://forms.gle/BTQBkC1gocL4Bbsf8) maksimal setiap hari **Senin** pukul 23.59 WIB pada **minggu berikutnya**.
