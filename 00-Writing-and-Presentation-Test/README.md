@@ -39,6 +39,15 @@ Mohon mengerjakan tugas ini menggunakan format **Markdown** (`README.md`) pada s
 
 - Kamu tidak diwajibkan untuk menggunakan slide (opsional)
 
+## Example
+
+Berikut adalah contoh pengerjaan yang benar dari beberapa peserta di program Skilvul:
+Writing: https://github.com/chacacaliza/Writing-and-Presentation-Test/blob/main/Week3/README.md
+Video: https://drive.google.com/drive/folders/1nABxPmLx7aguLPCNVZEpDOMCHoF3mmFx
+
+Writing: https://github.com/Jirjatss/week-1/blob/main/tugas-writing-week1.md
+Video: https://www.youtube.com/watch?v=3JLPm3pm5vI
+
 ## Submission
 
 Jika telah menyelesaikan tugas ini, silahkan kumpulkan melalui form berikut [ini](https://forms.gle/BTQBkC1gocL4Bbsf8).
