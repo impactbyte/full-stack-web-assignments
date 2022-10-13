@@ -15,7 +15,6 @@ Pastikan aplikasi yang kamu buat membantu **menyelesaikan masalah yang ada (prob
 - Website sudah harus mobile responsive
 - Website harus dipublish ke production dan bisa diakses secara publik
 - Setiap group wajib membuat slidedeck presentation
-- Setiap group wajib melakukan recording menggunakan Zoom dan diupload ke YouTube untuk mempresentasikan hasil karya aplikasinya
 - Deploy aplikasi website menggunakan [Netlify](https://netlify.com) atau [Vercel](https://vercel.com) dan integrasikan dengan Repository GitHub
 - Pastikan Repository GitHub dan Link Website dapat diakses secara publik
 
@@ -32,17 +31,18 @@ Pastikan aplikasi yang kamu buat membantu **menyelesaikan masalah yang ada (prob
 
 Penilaian akan dilakukan dari beberapa hal:
 
-1. Aplikasi memiliki minimal 1 fitur end-to-end dan berfungsi sesuai dengan rancangan
-2. Self contribution (70%) dan Teamwork (30%)
-3. BRD dan Wireframe
-4. Presentation
-5. Pemahaman dan Implementasi dari HTML, CSS, dan JavaScript
-6. Website sudah responsive
-7. Kode yang terorganisasi dengan baik
-8. Jumlah halaman website yang sesuai
-9. Konten yang sesuai dengan tema website. Tidak boleh menggunakan konten dummy seperti Lorem Ipsum.
-10. Kemampuan peserta menggunakan Git & GitHub
-11. Kemampuan peserta dalam mendeploy aplikasi website
+1. Correctness, Design, dan Style
+2. Aplikasi memiliki minimal 1 fitur end-to-end dan berfungsi sesuai dengan rancangan
+3. Self contribution (70%) dan Teamwork (30%)
+4. BRD dan Wireframe
+5. Presentation
+6. Pemahaman dan Implementasi dari HTML, CSS, dan JavaScript
+7. Website sudah responsive
+8. Kode yang terorganisasi dengan baik
+9. Jumlah halaman website yang sesuai
+10. Konten yang sesuai dengan tema website. Tidak boleh menggunakan konten dummy seperti Lorem Ipsum.
+11. Kemampuan peserta menggunakan Git & GitHub
+12. Kemampuan peserta dalam mendeploy aplikasi website
 
 ---
 
