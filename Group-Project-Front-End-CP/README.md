@@ -4,8 +4,8 @@ Pastikan aplikasi yang kamu buat membantu **menyelesaikan masalah yang ada (prob
 
 ## Specs
 
-- Setiap group harus membuat BRD
-- Setiap group harus membuat Wireframe
+- Setiap group harus membuat **BRD**
+- Setiap group harus membuat **Wireframe**
 - Gunakan project managmenet app seperti Trello untuk mengatur to do list dalam group
 - Aplikasi harus menggunakan library **React.js**
 - Wajib menggunakan **functional component**
@@ -15,16 +15,16 @@ Pastikan aplikasi yang kamu buat membantu **menyelesaikan masalah yang ada (prob
 - Setiap UI yang akan digunakan pada page lain, wajib di jadikan **component**
 - Harus membuat minimal **4 halaman**
 - Wajib membuat **component**
-- Fitur yang dibuat harus _end-to-end_ yaitu tidak boleh terputus (misalnya website pembelian produk berarti harus sampai proses pembelian berhasil)
-- Website harus interaktif dan memiliki logic didalamnya menggunakan JavaScript
-- Component yang dibuat harus bervariasi dan salah satu/lebih harus memiliki props
-- Harus memiliki state
-- Wajib sudah mendukung tampilan responsive
+- Fitur yang dibuat harus **_end-to-end_** yaitu tidak boleh terputus (misalnya website pembelian produk berarti harus sampai proses pembelian berhasil)
+- Website harus **interaktif** dan memiliki logic di dalamnya menggunakan JavaScript
+- Component yang dibuat harus **bervariasi** dan salah satu/lebih harus memiliki **props**
+- Harus memiliki **state**
+- Wajib sudah mendukung tampilan **responsive**
 - Konten dan desain bersifat fleksibel mengikuti kreatifitas dan kebutuhan peserta
-- Publish source code yang telah dibuat pada Repository GitHub
+- Publish source code yang telah dibuat pada **Repository GitHub**
 - Deploy aplikasi website menggunakan [Netlify](https://netlify.com) atau [Vercel](https://vercel.com) dan integrasikan dengan Repository GitHub
-- Pastikan Repository GitHub dan Link Website dapat diakses secara publik
-- Setiap group wajib membuat slidedeck presentation
+- Pastikan Repository GitHub dan Link Website dapat **diakses secara publik**
+- Setiap group wajib membuat **slidedeck presentation**
 
 ## Git & GitHub
 
