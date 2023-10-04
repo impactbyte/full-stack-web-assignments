@@ -21,12 +21,12 @@
 Berikut beberapa referensi personal website yang dapat kamu jadikan contoh dalam tahap development:
 
 - https://jeffjadulco.com/
-- https://zeller.io/
-- https://www.danielballoch.com/
-- https://www.thomasmaximini.com/
+- https://leerob.io/
+- https://theodorusclarence.com/
 - https://chrisnager.com/
 - https://www.lukyprimadani.com/
 - https://www.crissyw.com/
+- https://www.rochelleyuan.com/
 
 ## Penilaian
 
